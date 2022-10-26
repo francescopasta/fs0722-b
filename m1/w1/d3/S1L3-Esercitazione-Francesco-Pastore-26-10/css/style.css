@@ -1,0 +1,119 @@
+
+body{
+    color: rgb(49, 196, 233);
+    margin: 50px;
+    margin-bottom: 0;
+    border:rgb(255, 167, 34) solid;
+    border-bottom: 0ch;
+    font-family: Lora, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    width: 100%;
+    background-color: rgb(238, 174, 56);
+}
+
+header>image{
+    border-radius: 30px;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(253, 236, 211);
+    border-top: 3px solid rgb(255, 167, 34);
+    padding: 25px;
+}
+
+
+h1{
+    text-align: center;
+    font-weight: 600 bold;
+}
+
+#p1{
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 4rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.container-1{
+    display: flex;
+    justify-content: center;
+}
+
+.container-1 + figcaption{
+    text-align: center;
+    font-weight: 600;
+}
+
+#feature{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-left: 20px;
+    border-left: 3px solid rgb(255, 167, 34);
+}
+
+section{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+main{
+    border-bottom: 2px solid rgb(255, 167, 34);
+}
+
+.h2{
+    border-bottom: 1px solid rgb(255, 167, 34);
+}
+
+footer>image{
+    display: inline;
+    width: 4px;
+    height: 4px;
+}
+
+footer>p{
+    display: inline;
+    font-weight: 600;
+}
+
+footer>a{
+    color: white;
+}
+
+footer{
+    background-color: orange;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    color: white;
+}
+
+nav:hover, h1:hover, #p1:hover, figcaption:hover, p:hover, h2:hover, h3:hover{
+    color: rgb(255, 255, 255);
+}
+
+ul>li:hover{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: red;
+}
+
+#a2:hover{
+    color: white;
+}
+
+#p2:hover{
+    color: rgb(91, 255, 15);
+}
