@@ -1,0 +1,206 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+
+body{
+    margin: 0 auto;
+    max-width: 450px;
+    max-height: 500px;
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif ;
+    line-height: 1.65;
+    text-align: center;
+    width: 100%;
+}
+
+h1, h3{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+
+}
+
+h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+header{
+    background-color: black;
+    padding: 0 auto;
+    padding-top: 38px;
+    padding-bottom: 40px;
+}
+
+header img{
+    width: 35%;
+}
+
+nav{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 158%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+nav h1{
+    font-size: 2.5rem;
+    line-height: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+nav p{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    font-size: 1.5rem;
+}
+
+button{
+    background-color: #f04c2f;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+section{
+    padding-top: 25px;
+    padding-bottom: 80px;
+    font-weight: 500;
+}
+
+section h3{
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+section p{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.4rem;
+    font-weight: 580;
+}
+
+section img{
+    border-radius: 50%;
+    padding: 0;
+    margin-left: 120px auto;
+    width: 80%;
+    margin-top: 45px;
+}
+
+.s2{
+    background-color: #e22d0e;
+    color: white;
+    padding-top: 75px;
+    padding-bottom: 40px;
+    margin-bottom: 80px;
+}
+
+.s2 h2{
+    font-size: 2.3rem;
+    padding-bottom: 40px;
+}
+
+.s2 p{
+    padding-bottom: 40px;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.s2 h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.s2 h5{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.div img{
+    width: 100%;
+}
+
+.div{
+    border: 1px solid #dee1e3;
+    border-radius: 5px;
+    padding: 50px;
+    padding: 0;
+    margin: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 35px;
+}
+
+.div2{
+    padding-top: 16px;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.div2 h3{
+    padding-bottom: 10px;
+}
+
+footer{
+    color: #c8e7f0;
+    background-color: #25a2c3;
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 85px;
+}
+
+footer h2{
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+footer a{
+    color: #c8e7f0;
+  
+}
+
+.inline{
+    margin-right: 5px;
+    color: white;
+}
+
+#linea{
+    background-color: rgba(255, 255, 255, 0.863);
+    margin: 0 auto;
+    width: 50%;
+    height: 0.8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer h5{
+    font-size: 1rem;
+}
+
+footer span{
+    text-decoration: underline;
+}
