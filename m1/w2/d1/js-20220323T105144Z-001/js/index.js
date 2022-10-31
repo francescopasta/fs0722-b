@@ -3,7 +3,7 @@ alert('Uso il pop up per mandare dei messaggi');
 window.alert('Sto studiando JS');
 
 var favouriteAnimal = "Capra"
-var favourite2Animal = "Woman"
+var favourite2Animal = "Uccello"
 var anni = prompt("Quanti anni hai?")
 
 let p = document.getElementById("paragraph") 
