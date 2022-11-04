@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<div class="contenitore">
+    <input id="num" type="text" placeholder="0">
+    <div id="display">
+    <button class="btns" data-num="1"  onclick="aggiungiNumero(this)">1</button>
+    <button class="btns" data-num="2"  onclick="aggiungiNumero(this)">2</button>
+    <button class="btns" data-num="3"  onclick="aggiungiNumero(this)">3</button>
+    <button class="btns" data-num="4"  onclick="aggiungiNumero(this)">4</button>
+    <button class="btns" data-num="5"  onclick="aggiungiNumero(this)">5</button>
+    <button class="btns" data-num="6"  onclick="aggiungiNumero(this)">6</button>
+    <button class="btns" data-num="7"  onclick="aggiungiNumero(this)">7</button>
+    <button class="btns" data-num="8"  onclick="aggiungiNumero(this)">8</button>
+    <button class="btns" data-num="9"  onclick="aggiungiNumero(this)">9</button>
+    <button class="btns" data-num="0"  onclick="aggiungiNumero(this)">0</button>
+    </div> 
+    <div id="operatori">
+    <button class="btns" data-num="+ "  onclick="aggiungiNumero(this)">+</button>
+    <button class="btns" data-num="- "  onclick="aggiungiNumero(this)">-</button>
+    <button class="btns" data-num="/ "  onclick="aggiungiNumero(this)">÷</button>
+    <button class="btns" data-num="* "  onclick="aggiungiNumero(this)">x</button>
+    <button class="btns" data-num="."  onclick="aggiungiNumero(this)">,</button>
+    <button class="btns" data-num="( "  onclick="aggiungiNumero(this)">(</button>
+    <button class="btns" data-num=") "  onclick="aggiungiNumero(this)">)</button>
+    <button class="btns" data-num="Math.PI "  onclick="aggiungiNumero(this)">π</button>
+    <button class="btns" data-num="Math.SQRT2 "  onclick="radice()">√</button>
+    <button class="btns" data-num="Math.E "  onclick="logaritmo(this)">ln</button>
+    <button class="btns" data-num="Math.LN10 "  onclick="logaritmo(this)">log</button>
+    <button class="btns" onclick="tot()">=</button> 
+    <button class="btns" onclick="restore()">CE</button>
+    </div>
+
+</div>
+
+    <script>
+        function aggiungiNumero(button){
+            
+            document.getElementById("num").value += button.getAttribute('data-num')
+
+        }
+
+        function tot(){
+           let numero = document.getElementById("num");
+           numero.value = eval(numero.value);
+        }  
+
+        function restore(){
+            document.getElementById("num").value = null
+        }
+
+        /*function radice(){
+            let radice = document.getElementById("num");
+           radice.value = Math.SQRT2(radice.value)
+        }*/
+
+        /*function logaritmo(){
+            document.getElementById("num").value = 
+        }*/
+
+        
+
+    </script>
+</body>
+</html>

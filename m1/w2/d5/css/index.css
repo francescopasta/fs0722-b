@@ -1,0 +1,33 @@
+.contenitore{
+    text-align: center;
+    margin: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#num{
+    text-align: end;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid rgb(48, 48, 48);
+    background-color: rgb(146, 179, 146);
+    font-size: 1.5rem;
+}
+
+.btns{
+    padding: 25px;
+    font-size: 1.3rem;
+}
+
+#display{
+    line-height: 85px;
+    margin: 0 auto;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#operatori{
+    line-height: 85px;
+    margin: 0 auto;
+}
