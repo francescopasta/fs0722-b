@@ -1,33 +1,95 @@
+body{
+    margin: auto;
+    background-image: url(../img/Retrowave\ _\ Sunset\ _\ Neon\ \(1\).jpg);
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
 .contenitore{
+    display: block;  
     text-align: center;
-    margin: 80px;
+    max-width: 500px;
+    max-height: 700px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    padding: 50px 40px;
+    background-image: url(../img/vector.jpg);
+    background-size: 10%;
+    margin-bottom: 40px;
+    box-shadow: 15px 25px 25px black;
+}
+
+div{
+    display: inline-block;
 }
 
 #num{
-    text-align: end;
+    display: block;
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    margin-top: 3px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 2px solid rgb(48, 48, 48);
-    background-color: rgb(146, 179, 146);
+    text-align: end;
+    color: white;
     font-size: 1.5rem;
+    border: 2px solid rgb(119, 0, 167);
+    background-color: rgba(108, 0, 129, 0.884);
+    text-shadow: 
+    0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255),
+    0 0 15px rgb(255, 255, 255),
+    0 0 10px rgb(166, 1, 231),
+    0 0 15px rgb(131, 64, 194),
+    0 0 20px rgb(127, 59, 196)
+    ;
+    ;
+    box-shadow: 
+    5px 5px 1px rgb(68, 4, 128),
+    5px 5px 2px rgb(66, 3, 124),
+    0px 0px 3px rgb(69, 15, 119)
+    ;
+    
 }
 
 .btns{
-    padding: 25px;
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
     font-size: 1.3rem;
+    background-color: rgb(151, 16, 151);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    box-shadow: 
+    5px 5px 1px rgb(68, 4, 128),
+    5px 5px 2px rgb(66, 3, 124),
+    0px 0px 3px rgb(69, 15, 119),
+    0 0 1px rgb(215, 243, 248),
+    0 0 2px rgb(182, 126, 235),
+    0 0 3px rgb(138, 68, 207)
+    ;
+    text-shadow: 
+    5px 0px 1px rgb(68, 4, 128),
+    5px 0px 2px rgb(66, 3, 124),
+    5px 0px 3px rgb(69, 15, 119),
+    0 0 1px rgb(215, 243, 248),
+    0 0 2px rgb(182, 126, 235),
+    0 0 3px rgb(138, 68, 207)
+    ;
 }
 
 #display{
     line-height: 85px;
     margin: 0 auto;
-    margin-left: 40px;
-    margin-right: 40px;
+    display: inline-block;
+    padding-left: 200px;
 }
 
-#operatori{
-    line-height: 85px;
-    margin: 0 auto;
+#display button{
+    padding: 25px;
 }
+
+
+
