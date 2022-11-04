@@ -12,39 +12,38 @@
 <div class="contenitore">
 
     <input id="num" type="text">
-    <div id="operatori">
-    <button class="btns" onclick="restore()">CE</button>
-    <button class="btns" onclick="del()">Del</button>
-    <button class="btns" data-num="("  onclick="aggiungiNumero(this)">(</button>
-    <button class="btns" data-num=") "  onclick="aggiungiNumero(this)">)</button>
-    <button class="btns" data-num="Math.PI "  onclick="aggiungiNumero(this)">π</button>
-    <button class="btns" onclick="xSup2()">x<sup>2</sup></button>
-    <button class="btns" onclick="radice()">√</button>
-    <button class="btns" onclick="logaritmoE()">ln</button>
-    <button class="btns" onclick="logaritmo10(this)">log</button>
-    <button class="btns" onclick="changeOfSign()">+/-</button>
-    <button class="btns" onclick="parentesi()">(-)</button>
-    
+    <div class="operatori">
+    <button class="btns, bottoni" data-num="("  onclick="aggiungiNumero(this)">(</button>
+    <button class="btns, bottoni" data-num=") "  onclick="aggiungiNumero(this)">)</button>
+    <button class="btns, bottoni" onclick="changeOfSign()">+/-</button>
+    <button class="btns, bottoni" onclick="restore()">CE</button>
+    <button class="btns, bottoni" onclick="del()">Del</button>
     </div>
 
-    <div id="display">
-    
+    <div class="display">
+    <button class="btns, bottoni" onclick="logaritmoE()">ln</button>
     <button class="btns" data-num="9"  onclick="aggiungiNumero(this)">9</button>
     <button class="btns" data-num="8"  onclick="aggiungiNumero(this)">8</button>
     <button class="btns" data-num="7"  onclick="aggiungiNumero(this)">7</button>
     <button class="btns" data-num=" + "  onclick="aggiungiNumero(this)">+</button>
+    <button class="btns, bottoni" onclick="xSup2()">x<sup>2</sup></button>
+    <button id="log" class="btns, bottoni" onclick="logaritmo10(this)">log</button>
     <button class="btns" data-num="6"  onclick="aggiungiNumero(this)">6</button>
     <button class="btns" data-num="5"  onclick="aggiungiNumero(this)">5</button>
     <button class="btns" data-num="4"  onclick="aggiungiNumero(this)">4</button>
     <button class="btns" data-num=" - "  onclick="aggiungiNumero(this)">-</button>
+    <button id="v" class="btns, bottoni" onclick="radice()">√</button>
+    <button class="btns, bottoni" onclick="parentesi()">(-)</button>
     <button class="btns" data-num="3"  onclick="aggiungiNumero(this)">3</button>
     <button class="btns" data-num="2"  onclick="aggiungiNumero(this)">2</button>
     <button class="btns" data-num="1"  onclick="aggiungiNumero(this)">1</button>
     <button class="btns" data-num=" / "  onclick="aggiungiNumero(this)">÷</button>
-    <button class="btns" data-num="0"  onclick="aggiungiNumero(this)">0</button>
-    <button class="btns" data-num="."  onclick="aggiungiNumero(this)">,</button>
-    <button class="btns" onclick="tot()">=</button>
     <button class="btns" data-num=" * "  onclick="aggiungiNumero(this)">x</button>
+    <button class="btns, bottoni" data-num="Math.PI "  onclick="aggiungiNumero(this)">π</button>
+    <button id="zero" class="btns" data-num="0"  onclick="aggiungiNumero(this)">0</button>
+    <button class="btns" data-num="."  onclick="aggiungiNumero(this)">,</button>
+    <button id="tot" class="btns" onclick="tot()">=</button>
+    
      
     
     </div> 

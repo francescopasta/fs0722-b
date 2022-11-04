@@ -27,15 +27,17 @@ div{
 #num{
     display: block;
     margin: 0 auto;
-    margin-bottom: 30px;
-    margin-top: 3px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 35px;
+    margin-top: 15px;
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     text-align: end;
     color: white;
     font-size: 1.5rem;
     border: 2px solid rgb(119, 0, 167);
-    background-color: rgba(108, 0, 129, 0.884);
+    background-color: rgba(108, 0, 129, 0.925);
     text-shadow: 
     0 0 5px rgb(255, 255, 255),
     0 0 10px rgb(255, 255, 255),
@@ -55,7 +57,7 @@ div{
 
 .btns{
     display: inline-block;
-    padding: 20px;
+    padding: 25px;
     margin-right: 10px;
     font-size: 1.3rem;
     background-color: rgb(151, 16, 151);
@@ -80,16 +82,64 @@ div{
     ;
 }
 
-#display{
+.display{
     line-height: 85px;
     margin: 0 auto;
     display: inline-block;
-    padding-left: 200px;
+    padding-left: 25px;
+    padding-right: 20px;
 }
 
-#display button{
-    padding: 25px;
+#log{
+    padding: 20px 15px;
 }
 
+#v{
+    padding: 20px 25px;
+}
 
+#tot{
+    padding: 25px 65px
+}
 
+#zero{
+    padding: 25px 65px
+}
+
+.operatori{
+    line-height: 70px;
+    padding-left: 25px;
+    padding-right: 20px;
+    margin-bottom: 5px;
+}
+
+.operatori button{
+    padding: 20px 28px;
+}
+
+.bottoni{
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(148, 15, 97);
+    box-shadow: 
+    5px 5px 1px rgb(131, 16, 87),
+    5px 5px 2px rgb(129, 17, 86),
+    0px 0px 3px rgb(136, 16, 90),
+    0 0 1px rgba(248, 176, 224, 0.877),
+    0 0 2px rgba(247, 181, 212, 0.925),
+    0 0 3px rgba(250, 182, 202, 0.932)
+    ;
+    text-shadow: 
+    5px 0px 1px rgb(68, 4, 128),
+    5px 0px 2px rgb(66, 3, 124),
+    5px 0px 3px rgb(69, 15, 119),
+    0 0 1px rgb(215, 243, 248),
+    0 0 2px rgb(182, 126, 235),
+    0 0 3px rgb(138, 68, 207)
+    ;
+}
