@@ -62,8 +62,10 @@ body{
 }
 
 .newLi{
+    display: flex;
+    justify-content: space-between;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-top: 30px;
     margin-right: 15px;
     text-decoration: underline;
@@ -72,7 +74,7 @@ body{
 
 .doneLi{
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-top: 30px;
     margin-left: 10px;
     margin-right: 15px;
@@ -80,8 +82,9 @@ body{
     padding-left: 20px;
 }
 
-.img{
-    padding-left: 20px;
+.img {
+    display: flex;
+    justify-content: space-between;
     width: 25px;
     height: 25px;
 }
