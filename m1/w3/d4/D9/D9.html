@@ -82,7 +82,7 @@
 
       const addClassToTitle = function () {
         let h1 = document.querySelector('.myClass')
-        h1.classList.replace('myClass', 'myHeading')
+        h1.classList.replace('myClass', 'myHeading') //.toggle interrruttore
       }
       addClassToTitle()
 
@@ -91,7 +91,7 @@
       */
 
       const changePcontent = function (text) {
-        let paragrafo = document.querySelectorAll('div > p')
+        let paragrafo = document.querySelectorAll('div p') //si puo' fare anche senza maggiore <
         paragrafo.forEach((e)=>{
           e.textContent = text
         })
@@ -126,12 +126,18 @@
        Scrivi una funzione per aggiungere un secondo paragrafo al primo div.
       */
 
-      const addParagraph = function (content) {
+      /*const addParagraph = function (content) {
         let par = document.createElement('p')
         let parText = document.createTextNode(content)
         par.append(parText)
 
         document.querySelector('#primo').append(par)
+      }
+      addParagraph('LoremIpsum')*/
+
+      const addParagraph = function (content) {
+        const div = document.querySelectorAll('div')[0]
+        div.innerHTML += `<p>${content}</p>`
       }
       addParagraph('LoremIpsum')
 
@@ -203,7 +209,7 @@
 
       const inputField = document.getElementById('input-field')
       inputField.addEventListener('keydown', (e)=>{
-        console.log(e.key)
+        console.log(e.key) //mettendo e.value non mi loggava le lettere, allora 
       })
 
       /* ESERCIZIO 12
