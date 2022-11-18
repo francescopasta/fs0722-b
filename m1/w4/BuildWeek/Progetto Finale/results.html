@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/result.css">
+    <title>Results Quiz</title>
+</head>
+<body>
+    <header>
+        <a id="tornaWelcome" href="welcome.html"><img src="Assets/epicode_logo.png" alt="Logo Epicode" title="Logo Epicode" id="logo"></a>
+    </header>
+    <main>
+        <div class="centro">
+            <h1>Results</h1>
+            <h2>The summary of your answers:</h2>
+        </div>
+        <div class="container-torta">
+            <div id="domande-corrette">
+                <h3>Correct</h3>
+                <p id="a"></p>
+                <p id="b"></p>
+            </div>
+
+
+            <div class="contenitore-grafico">
+                <canvas id="myChart"></canvas>
+                <div id="contenitore-esito">
+                    <p id="principale"></p>
+                    <p id="principale-bis"></p>
+                    <p id="secondario"></p>
+                </div>
+            </div>
+
+
+            <div class="domande-sbagliate">
+                <h3>Wrong</h3>
+                <p id="a"></p>
+                <p id="b"></p>
+            </div>
+        </div>  
+</main>
+<footer>
+    <div class="button">
+    <a href="review.html"> RATE US</a>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.1/chart.umd.js"></script>
+<script src="js/results.js"></script>
+</body>
+</html>
