@@ -1,0 +1,230 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* NAV */
+
+nav{
+    display: flex;
+    align-content: space-around;
+    background-color: rgba(255, 238, 195, 0.952);
+    /* border-radius: 90px; */
+    /* margin: 15px 8px; */
+    padding: 20px;
+    width: 10%;
+    float: left;
+    flex-direction: column;
+    padding-bottom: 25%;
+}
+
+@media screen and (min-width: 480px) {
+    nav{
+        float: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+        border-radius: 90px;
+        width: 88.5%;
+        margin: 15px 8px;
+    }
+}
+
+nav div{
+    display: flex;
+    background-color: rgb(255, 221, 31);
+    border-radius: 55px;
+    margin-bottom: 15px;
+    padding: 32px 18px;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: rgb(124, 45, 14);
+}
+#title{
+    height: 25px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    max-height: 100%;
+}
+
+/* MAIN & H1 & H2*/
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+main h1{
+    color: rgb(124, 45, 14);
+    font-weight: 900;
+    margin: 10px 25px 15px;
+}
+main h2{
+    color: rgb(94, 34, 10);
+    font-weight: 900;
+    font-size: 1.9rem;
+    margin: 10px 20px 10px;
+}
+
+@media screen and (min-width: 480px) {
+    main{
+        text-align: center;
+    }
+}
+
+/* CARD */
+
+.primo{
+    display: flex;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 30px;
+    flex-direction: column;
+    /* flex-wrap: wrap;
+    align-items: stretch; */
+    width: 300px;
+}
+
+.primo div{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(146, 53, 16);
+}
+
+.primo div h3, .primo div h5{
+    margin: 0;
+}
+
+.primo div h3{
+    color: rgb(114, 43, 14);
+    font-weight: 800;
+    font-size: 0.9rem;
+}
+.primo div h5{
+    color: rgba(124, 45, 14, 0.932);
+    font-weight: 500;
+}
+
+.primo div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.primo img{
+    max-width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.primo button{
+    margin: 0px 25px 10px;
+    padding: 5px 0px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(253, 225, 63);
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: rgb(124, 45, 14);
+}
+
+/* ARTICLE SET */
+
+main article{
+    display: flex;
+    flex-direction: row;
+    margin: 0 5px;
+}
+
+@media screen and (min-width: 480px) {
+    main article{
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main article{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main article{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 1200px) {
+    main article{
+        flex-direction: row;
+    }
+}
+
+/* POST */
+
+#articolo{
+    background-color: rgb(255, 243, 228);
+    display: flex;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+@media screen and (min-width: 480px) {
+    #articolo{
+        flex-direction: column;
+    }
+    #articolo div{
+        justify-self: start;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #articolo{
+        flex-direction: column;
+    }
+    #articolo div{
+        justify-self: start;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #articolo{
+        flex-direction: column;
+    }
+    #articolo div{
+        justify-self: start;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #articolo{
+        flex-direction: row-reverse;
+    }
+}
+
+#articolo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#articolo div{
+    display: flex;
+    flex-direction: column;
+    color: rgb(124, 45, 14);
+    margin: 0;
+    margin-left: 18px;
+}
+
+#articolo div h3{
+    font-weight: 800;
+}
+
+#articolo div p{
+    color: rgba(124, 45, 14, 0.774);
+}
+
