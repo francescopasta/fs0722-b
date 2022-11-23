@@ -23,11 +23,44 @@ nav{
     nav{
         float: none;
         flex-direction: row;
-        flex-wrap: wrap;
         padding-bottom: 0;
         border-radius: 90px;
         width: 88.5%;
         margin: 15px 8px;
+        justify-content: space-around;
+    } 
+    #title{
+        order: 1;
+    }
+    #uno{
+        order: 2;
+    }
+    #due{
+        order: 3;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    nav{
+        display: flex;
+        align-content: space-around;
+        background-color: rgba(255, 238, 195, 0.952);
+        border-radius: 0;
+        margin: 0;
+        padding: 20px;
+        width: 10%;
+        float: left;
+        flex-direction: column;
+        padding-bottom: 25%;
+    }
+    #title{
+        order: 0;
+    }
+    #uno{
+        order: 0;
+    }
+    #due{
+        order: 0;
     }
 }
 
@@ -75,6 +108,12 @@ main h2{
 @media screen and (min-width: 480px) {
     main{
         text-align: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main{
+        text-align: left;
     }
 }
 
