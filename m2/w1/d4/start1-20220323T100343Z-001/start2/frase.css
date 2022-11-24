@@ -17,16 +17,16 @@ p{
     line-height: 3rem;
     font-size: 2rem;
 }
-main{
+/* main{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   QUESTO FLEX MI MANDAVA A P***** TUTTO
     justify-content: center; 
-}
+} */
 #testoAlternato{
     margin-top: 200px;
     border: 2px solid black;
     padding: 40px 180px 40px 25px;
-    margin: 0 auto;
+    margin: 0 200px auto;
 }
 
 .parole{
@@ -35,30 +35,34 @@ main{
 #one{
     color: rgb(108, 135, 255);
     position: absolute;
-    animation-name: roll;
     opacity: 0;
-    animation-duration: 5s;
+    animation-name: roll;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
 }
 #two{
     color: rgb(108, 135, 255);
     position: absolute;
     opacity: 0;
     animation-name: roll;
-    animation-duration: 5s;
-    animation-delay: 5s;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
 }
 #three{
     color: rgb(108, 135, 255);
     position: absolute;
     opacity: 0;
     animation-name: roll;
-    animation-duration: 5s;
-    animation-delay: 10s;
+    animation-duration: 6s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes roll {
-    0%,  100% {opacity: 0;}
-    30% {opacity: 2;}
+    0% {opacity: 0; transform: translateY(-30px);}
+    25%{opacity: 2; transform: translateY(0px);}
+    50% {opacity: 0; transform: translateY(30px);}
 }    
 
 
