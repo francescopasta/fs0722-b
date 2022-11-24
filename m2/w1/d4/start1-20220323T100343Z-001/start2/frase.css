@@ -37,26 +37,23 @@ main{
     position: absolute;
     animation-name: roll;
     opacity: 0;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
+    animation-duration: 5s;
 }
 #two{
     color: rgb(108, 135, 255);
     position: absolute;
     opacity: 0;
     animation-name: roll;
-    animation-duration: 15s;
+    animation-duration: 5s;
     animation-delay: 5s;
-    animation-iteration-count: infinite;
 }
 #three{
     color: rgb(108, 135, 255);
     position: absolute;
     opacity: 0;
     animation-name: roll;
-    animation-duration: 15s;
+    animation-duration: 5s;
     animation-delay: 10s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes roll {

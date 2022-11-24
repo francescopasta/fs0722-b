@@ -9,20 +9,20 @@ body{
 }
 div{
     padding: 60px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 8px 8px 18px black;
 }
 #container{
     background-color: gray;
     display: flex;
     flex-direction: column;
-    padding: 24px;
+    padding: 94px;
     box-shadow: none;
 }
 .divisore{
     display: flex;
     justify-content: space-around;
     box-shadow: none;
-    padding: 20px 15px;
+    padding: 25px 0px;
     
 }
 div h1{
