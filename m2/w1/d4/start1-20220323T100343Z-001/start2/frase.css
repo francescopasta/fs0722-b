@@ -1,0 +1,76 @@
+/*
+1 creazione del testo e formattazione di 1 parola da far ruotare
+2 inserimento delle altre 2 parole
+3 sovrapporre le 3 parole
+4 mostrare 1 parola e nascondere le altre 2
+5 animare 1 parola (fadein - fadeout con spostamento)
+6 animare le altre 2 parole
+7 ritardare progressivamente l'animazione delle altre 2 parole 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+body{
+    margin-top: 200px;
+    font-family: Merriweather;
+}
+p{
+    font-weight: 700;
+    line-height: 3rem;
+    font-size: 2rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+#testoAlternato{
+    margin-top: 200px;
+    border: 2px solid black;
+    padding: 40px 180px 40px 25px;
+    margin: 0 auto;
+}
+
+.parole{
+    margin-left: 5px;
+}
+#one{
+    color: rgb(108, 135, 255);
+    position: absolute;
+    animation-name: roll;
+    opacity: 0;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+#two{
+    color: rgb(108, 135, 255);
+    position: absolute;
+    opacity: 0;
+    animation-name: roll;
+    animation-duration: 15s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+#three{
+    color: rgb(108, 135, 255);
+    position: absolute;
+    opacity: 0;
+    animation-name: roll;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes roll {
+    0%,  100% {opacity: 0;}
+    30% {opacity: 2;}
+}    
+
+
+
+ 
+        
+        
+    
+   
+        
+
+

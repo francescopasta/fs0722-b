@@ -1,0 +1,67 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Indie Flower;
+    font-size: 2rem;
+    /* display: flex;
+    justify-content: center; */
+    background-color: gray;
+}
+div{
+    padding: 60px;
+    box-shadow: 5px 5px 15px black;
+}
+#container{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    box-shadow: none;
+}
+.divisore{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: none;
+    padding: 20px 15px;
+    
+}
+div h1{
+    font-weight: 600;
+}
+.uno{
+    background-color: rgb(255, 255, 185);
+}
+.due{
+    background-color: rgba(143, 255, 177, 0.979);
+}
+.tre{
+    background-color: rgb(193, 159, 255);
+}
+#primo{
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.one{
+    transform: rotate(-3deg);
+}
+.two{
+    transform: rotate(5deg);
+}
+.three{
+    transform: rotate(-5deg);
+}
+#four{
+    transform: rotate(-2deg);
+}
+#five{
+    transform: rotate(4deg);
+}
+
+.divisore div:hover, #four:hover, #five:hover{
+    transform: rotate(0deg);
+    transition: 0.6s;
+    transform: scale(1.3);
+    z-index: 1;
+}
