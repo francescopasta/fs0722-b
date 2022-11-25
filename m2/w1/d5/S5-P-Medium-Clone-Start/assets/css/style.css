@@ -386,6 +386,10 @@ main section{
     font-weight: 500;
     color: rgb(119, 119, 119);
 }
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
 .argomenti{
    background-color: rgba(235, 235, 235, 0.829);
    border-radius: 15px;
