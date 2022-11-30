@@ -1,0 +1,71 @@
+@import 'variabili';
+@import 'bottoni';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    background-color: rgb(109, 7, 204);
+    padding: 0px 120px;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    nav{
+        display: $d-flex; 
+        justify-content: space-between;
+        h3{
+            font-size: 2rem;
+            font-weight: bold;
+            &:hover{
+                cursor: pointer;
+                transform: scale(1.8);
+                transition: 0.8s;
+            }
+        }
+        ul{
+            display: $d-flex;
+            align-self: center;
+            li{
+                list-style-type: none;
+                color: $white;
+                margin-left: 40px;
+                font-size: $size-piccola;
+                &:hover{
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+        margin-bottom: $padding-bottom;
+    }
+    .container{
+        display: $d-flex;
+        #uno{
+            align-self: center;
+            padding-right: 15px;
+        }
+        h1{
+            font-size: 3rem;
+            margin: 0;
+            margin-bottom: $padding-bottom;
+            &:hover{
+                font-weight: bold;
+                transform: scale(1.2);
+                transition: 0.8s;
+                cursor: pointer;
+            }
+        }
+        p{
+            font-size: $size-piccola;
+            font-weight: 700;
+            margin-bottom: 10px;
+            line-height: 30px;
+            &:hover{
+                color: $white;
+                transition: $transizione;
+                cursor: pointer;
+            }
+        }
+        img{
+            border-radius: 50%;
+        }
+    }
+}

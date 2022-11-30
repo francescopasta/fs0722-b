@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+.btns {
+  padding: 20px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-left: 5px;
+}
+.btns:hover {
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.first {
+  background-color: rgb(0, 89, 255);
+}
+.first:hover {
+  background-color: rgb(0, 61, 175);
+  transform: scale(1.1);
+}
+
+.second {
+  background-color: rgb(255, 166, 0);
+}
+.second:hover {
+  background-color: rgb(255, 123, 0);
+  transform: scale(1.1);
+}
+
+body {
+  background-color: rgb(109, 7, 204);
+  padding: 0px 120px;
+  font-family: "Montserrat", sans-serif;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+header nav h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+header nav h3:hover {
+  cursor: pointer;
+  transform: scale(1.8);
+  transition: 0.8s;
+}
+header nav ul {
+  display: flex;
+  align-self: center;
+}
+header nav ul li {
+  list-style-type: none;
+  color: #fff;
+  margin-left: 40px;
+  font-size: 0.9rem;
+}
+header nav ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+header .container {
+  display: flex;
+}
+header .container #uno {
+  align-self: center;
+  padding-right: 15px;
+}
+header .container h1 {
+  font-size: 3rem;
+  margin: 0;
+  margin-bottom: 5px;
+}
+header .container h1:hover {
+  font-weight: bold;
+  transform: scale(1.2);
+  transition: 0.8s;
+  cursor: pointer;
+}
+header .container p {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+header .container p:hover {
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+header .container img {
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
