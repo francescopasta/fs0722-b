@@ -48,8 +48,9 @@ header{
             margin-bottom: $padding-bottom;
             &:hover{
                 font-weight: bold;
+                color: white;
                 transform: scale(1.2);
-                transition: 0.8s;
+                transition: 1s;
                 cursor: pointer;
             }
         }

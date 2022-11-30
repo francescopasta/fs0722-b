@@ -8,7 +8,7 @@
 }
 .btns:hover {
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.6s;
 }
 
 .first {
@@ -75,8 +75,9 @@ header .container h1 {
 }
 header .container h1:hover {
   font-weight: bold;
+  color: white;
   transform: scale(1.2);
-  transition: 0.8s;
+  transition: 1s;
   cursor: pointer;
 }
 header .container p {
@@ -87,7 +88,7 @@ header .container p {
 }
 header .container p:hover {
   color: #fff;
-  transition: 0.4s;
+  transition: 0.6s;
   cursor: pointer;
 }
 header .container img {
