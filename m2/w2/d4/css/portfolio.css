@@ -65,9 +65,15 @@ main ul li {
 }
 main div ul {
   font-size: 0.9rem;
+  font-weight: 500;
   width: 100%;
 }
 main div ul li {
   border: none;
-  padding: 15px 5px;
+  padding: 15px 0px;
+  margin-right: 60px;
+}
+main div ul li:last-of-type, main div ul li:nth-of-type(2) {
+  font-style: italic;
+  list-style-type: square;
 }/*# sourceMappingURL=portfolio.css.map */

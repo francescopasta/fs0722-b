@@ -19,10 +19,16 @@ main {
     div{
         ul{
             font-size: 0.9rem;
+            font-weight: 500;
             width: 100%;
             li{
                 border: none;
-                padding: 15px 5px;
+                padding: 15px 0px;
+                margin-right: 60px;
+                &:last-of-type, &:nth-of-type(2){
+                    font-style: italic;
+                    list-style-type: square;
+                }
             }
         }
     }
