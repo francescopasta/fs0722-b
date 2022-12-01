@@ -16,6 +16,11 @@ h3 {
   font-size: 1.4rem;
 }
 
+span {
+  font-style: italic;
+  color: rgb(255, 155, 6);
+}
+
 body {
   margin: 5px;
   font-family: "Montserrat", sans-serif;
