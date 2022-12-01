@@ -62,4 +62,7 @@ main ul {
 main ul li {
   border-bottom: 1px dashed black;
   padding: 20px 15px;
+}
+main ul li:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=chi_sono.css.map */

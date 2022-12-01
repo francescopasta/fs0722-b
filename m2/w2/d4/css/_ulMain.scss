@@ -6,5 +6,8 @@
     li{
         border-bottom: 1px dashed black;
         padding: 20px 15px;
+        &:hover{
+            cursor: pointer;
+        }
     }
 }

@@ -22,5 +22,8 @@ main {
         font-size: 1.1rem;
         background-color: orange;
         border: 1px solid black;
+        &:hover{
+            cursor: pointer;
+        }
     }
 }

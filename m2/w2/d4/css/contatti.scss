@@ -13,6 +13,31 @@ nav{
 
 main {
     @include Main;
+    div{
+        span{
+            font-weight: 600;
+        }
+        form{
+            padding: 20px;
+            border: 1px solid black;
+            input{
+                display: block;
+                margin-bottom: 5px;
+                &:focus{
+                    outline-color: blue
+                }
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            textarea:focus{
+                outline-color: blue;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
     ul{
         @include lista;
     }

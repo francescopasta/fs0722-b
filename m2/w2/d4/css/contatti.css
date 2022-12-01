@@ -55,6 +55,29 @@ main {
 main div {
   width: 80%;
 }
+main div span {
+  font-weight: 600;
+}
+main div form {
+  padding: 20px;
+  border: 1px solid black;
+}
+main div form input {
+  display: block;
+  margin-bottom: 5px;
+}
+main div form input:focus {
+  outline-color: blue;
+}
+main div form input:hover {
+  cursor: pointer;
+}
+main div form textarea:focus {
+  outline-color: blue;
+}
+main div form textarea:focus:hover {
+  cursor: pointer;
+}
 main ul {
   list-style-type: none;
   width: 30%;
@@ -62,4 +85,7 @@ main ul {
 main ul li {
   border-bottom: 1px dashed black;
   padding: 20px 15px;
+}
+main ul li:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=contatti.css.map */
