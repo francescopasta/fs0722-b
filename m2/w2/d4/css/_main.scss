@@ -1,0 +1,8 @@
+@mixin Main {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15%;
+    div{
+        width: 80%;
+    }
+}

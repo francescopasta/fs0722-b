@@ -1,0 +1,10 @@
+@import 'variabili';
+
+@mixin lista {
+    @include typeNone();
+    width: 30%;
+    li{
+        border-bottom: 1px dashed black;
+        padding: 20px 15px;
+    }
+}

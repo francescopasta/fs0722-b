@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,500&display=swap');
+@import 'footer';
+@import 'navbar';
+@import 'ulMain';
+@import 'main';
+@import 'articolo';
+@import 'p';
+@import 'body';
+
+nav{
+    @include navbar;
+}
+
+main {
+    @include Main;
+    ul{
+        @include lista;
+    }
+    div{
+        ul{
+            font-size: 0.9rem;
+            width: 100%;
+            li{
+                border: none;
+                padding: 15px 5px;
+            }
+        }
+    }
+}
