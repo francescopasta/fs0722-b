@@ -1,0 +1,4 @@
+@mixin immagini($plus) {
+    width: calc(40px * $plus);
+    height: calc(40px * $plus);
+}

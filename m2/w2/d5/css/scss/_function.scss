@@ -1,0 +1,27 @@
+$template:brigth;
+//colors
+$bg-dark: #000;
+$fg-dark: #000;
+$fg-bright: #fff;
+
+@mixin colorDark() {
+    @if $template == dark {
+        color: $fg-dark
+    }
+}
+
+body{
+    @if $template == dark {
+        background-color: $bg-dark;
+        color: $fg-bright;
+    }
+}
+
+section{
+    @include colorDark();
+}
+
+article{
+    @include colorDark();
+}
+

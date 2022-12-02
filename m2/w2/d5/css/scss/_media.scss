@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+    section{
+        padding: 10px 10px;
+        padding-top: 35px;
+        height: 300px;
+        h1{
+            font-size: 1.8rem;
+        }
+        p{
+            font-size: 0.7rem;
+        }
+        button{
+            padding: 2px 5px;
+            font-size: 15rem;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import 'variabili';
+@import 'mixin';
+@import 'carousel';
+body{
+    font-family: $roboto;
+    background-color: white;
+    color: black;
+}
+@import 'function';
+
+nav{
+    background-color: $blu_viola;
+    ul{
+        li{
+            a{
+               color: red; 
+            }
+        }
+    }
+}
+
+section{
+    background-image: url(../img/pexels-aleksandar-pasaric-325185.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    height: 520px;
+    padding: 45px 70px;
+    h1{
+        margin-bottom: $margin-co-op;
+        font-size: 2.7rem;
+        font-weight: 500;
+    }
+    p{
+        padding-right: 34%;
+        font-size: 1.1rem;
+        margin-bottom: $margin-co-2;
+    }
+    button{
+        background-color: $blu_viola;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 15px;
+        font-size: 75rem;
+    }
+}
+
+article{
+    background-color: $svg-background;
+    svg{
+        margin-bottom: 20px;
+        @include immagini(1);
+    }
+}
+
+aside{
+    h2{
+        font-size: 3rem;
+        font-weight: 400;
+        margin-bottom: $margin-co-2;
+    }
+    img{
+        @include immagini(3.5);
+    }
+}
+
+footer{
+    background-color: $blu_viola;
+    color: white;
+    padding: 10px 0px;
+    div{
+        font-size: 1.1rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+}
+@import 'media';

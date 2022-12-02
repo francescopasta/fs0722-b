@@ -1,0 +1,24 @@
+.carousel-img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+.carousel{
+    %pop{
+        margin-bottom: $margin-co-2;
+    }
+    p{
+        @extend %pop;
+    }
+    img{
+        @extend %pop;
+    }
+    h4{
+        margin-bottom: calc($margin-co-2*5);
+    }
+    h2{
+        font-size: 2.5rem;
+        font-weight: 400;
+        margin-bottom: calc($margin-co-2*3)
+    }
+}
