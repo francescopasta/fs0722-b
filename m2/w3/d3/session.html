@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatore Secondi</title>
+</head>
+<body>
+    <script>
+
+        let testo = document.querySelector('body')
+
+        function avanti() {
+            setInterval(() => {
+                sessionStorage.forward = Number(sessionStorage.forward) + 1
+                testo.innerHTML = `<h1>${sessionStorage.forward} seconds passed on this Session</h1>`
+            }, 1000);
+        }
+
+        if (typeof(Storage) != undefined) {
+                if (sessionStorage.forward){  // Tutte le altre che ricarichi
+                    avanti();
+                 } else{   // Finche' non Ricarichi la pagina la prima volta
+                    sessionStorage.forward = 0;
+                    avanti();
+                }
+        } else {
+            testo.innerHTML = 'Il tuo browser non supporta Web Storage...'
+        }
+        
+    </script>
+</body>
+</html>
