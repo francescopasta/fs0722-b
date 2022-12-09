@@ -1,0 +1,42 @@
+[
+  {
+    "username": "john",
+    "firstName": "John",
+    "lastName": "Doe",
+    "gender": "Male",
+    "profileURL": "https://cdn.discordapp.com/attachments/1041633323535056927/1050702491932688404/male.png",
+    "email": "john.doe@example.com"
+  },
+  {
+    "username": "jane",
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "gender": "Female",
+    "profileURL": "https://cdn.discordapp.com/attachments/1041633323535056927/1050702491408420924/female.png",
+    "email": "jane.doe@example.com"
+  },
+  {
+    "username": "jerry",
+    "firstName": "Jerry",
+    "lastName": "Doe",
+    "gender": "Male",
+    "profileURL": "https://cdn.discordapp.com/attachments/1041633323535056927/1050702491932688404/male.png",
+    "email": "jerry.doe@example.com"
+  },
+  {
+    "username": "johanna",
+    "firstName": "Johanna",
+    "lastName": "Doe",
+    "gender": "Female",
+    "profileURL": "https://cdn.discordapp.com/attachments/1041633323535056927/1050702491408420924/female.png",
+    "email": "johanna.doe@example.com"
+  },
+  {
+    "username": "martin",
+    "firstName": "Martin",
+    "lastName": "Luther",
+    "gender": "Male",
+    "profileURL": "https://cdn.discordapp.com/attachments/1041633323535056927/1050702491932688404/male.png",
+    "email": "martin.luther@example.com"
+  }
+]
