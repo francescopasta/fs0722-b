@@ -1,0 +1,58 @@
+#main-artist{
+    #sez_inf{
+        h3{
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+        .container{
+            tbody{
+                h4{
+                    font-size: 0.9rem;
+                }
+                h5{
+                    font-size: 0.8rem;
+                    font-weight: 700;
+                }
+                p{
+                    font-size: 0.7rem;
+                    color: rgba(255, 255, 255, 0.836);
+                }
+            }
+        }
+        #band_profile{
+            h4{
+                font-size: 1rem;
+                font-weight: 700;
+            }
+            p{
+                font-size: 0.8rem;
+                font-weight: 700;
+                color: rgba(255, 255, 255, 0.76);
+            }
+        }
+    }
+    #sez_sup{
+        color: rgb(255, 255, 255);
+        text-shadow: 6px 6px 10px black;
+        height: 45%;
+        padding-left: 20px;
+        margin: 0;
+        h1{
+            font-size: 5rem;
+            font-weight: 700;
+        }
+        p{
+            font-weight: 700;  
+        }
+    }
+    #follow{
+        padding: 2px 0 3px;
+    }
+    .on{
+        &:hover{
+            background-color: #1ed760;
+            color: white;
+            border: 1px solid #1ed760;
+        }
+    }
+}

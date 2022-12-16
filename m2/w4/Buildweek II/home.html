@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spotify - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!------------------- STICKY HEADER  --------------------->
+  <header class="container-fluid d-none d-lg-flex justify-content-lg-center">
+    <div class="d-flex mt-2">
+      <a href="search.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="#fff" class="bi bi-arrow-left-circle-fill me-3" viewBox="0 0 16 16">
+          <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+        </svg>
+      </a>
+
+      <a href="search.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="#fff" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+          <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+        </svg>
+      </a>
+    </div>
+    <div class="flex me-0">
+      <button>
+        <img
+          src="https://th.bing.com/th/id/R.2b11a58b8d3f52856a657ec4c2f2bdbd?rik=KqT7itf2zj%2bUYw&pid=ImgRaw&r=0"
+          width="33" height="33" alt="profile-logo" class="rounded-circle">
+        CiccioGamer89 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+          class="bi bi-caret-down-fill svg-head-3" viewBox="0 0 16 16">
+          <path
+            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+        </svg></button>
+    </div>
+  </header>
+  <!----------------  NAVBAR  --------------------->
+  <div class="row pagina">
+    <nav class="col-12 col-lg-3 sticky-lg-bottom fixed-bottom pe-0" id="nav">
+      <ul class="nav flex-row flex-lg-column m-auto m-lg-0 justify-content-center">
+        <li class="nav-item d-none d-lg-block">
+          <div class="d-flex pt-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#fff"
+              class="bi bi-three-dots align-self-center" viewBox="0 0 16 16">
+              <path
+                d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+            </svg>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="d-flex flex-column flex-lg-row align-items-center">
+            <a href="home.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fff"
+                class="bi bi-house-door-fill align-self-center" viewBox="0 0 16 16">
+                <path
+                  d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z" />
+              </svg>
+            </a>
+            <a class="nav-link active text-white fw-bold playlist" aria-current="page" href="home.html">Home</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="d-flex flex-column flex-lg-row align-items-center">
+            <a href="search.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fff"
+                class="bi bi-search align-self-center" viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg>
+            </a>
+            <a class="nav-link text-white playlist fw-bold" href="search.html">Cerca</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="d-flex flex-column flex-lg-row align-items-center">
+            <svg width="25" height="25" fill="none" class="align-self-center" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M7 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V5zm4 0H9v14h2V5z" fill="#fff" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M2 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5zm4 0H4v14h2V5z" fill="#fff" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M12 14H3v-2h9v2zM12 17H3v-2h9v2zM15.637 3.048a2 2 0 0 1 2.45 1.414l3.623 13.523a2 2 0 0 1-1.415 2.45l-1.932.517a2 2 0 0 1-2.449-1.414L12.291 6.015a2 2 0 0 1 1.414-2.45l1.932-.517zm.517 1.932-1.932.517 3.624 13.523 1.932-.517L16.154 4.98z"
+                fill="#fff" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="m19.45 13.414-3.864 1.035-.518-1.931 3.864-1.036.518 1.932zM20.226 16.312l-3.864 1.035-.517-1.932 3.863-1.035.518 1.932z"
+                fill="#fff" />
+            </svg>
+            <a class="nav-link text-white playlist fw-bold" href="#">La tua Libreria</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="nav flex-column mt-3 pb-4 border-bottom border-secondary border-opacity-75 d-none d-lg-block">
+        <li class="nav-item d-none d-lg-block">
+          <div class="d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#fff"
+              class="bi bi-plus-square-fill align-self-center" viewBox="0 0 16 16">
+              <path
+                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z" />
+            </svg>
+            <a class="nav-link text-white fw-bold playlist" href="#">Crea Playlist</a>
+          </div>
+        </li>
+        <li class="nav-item d-none d-lg-block">
+          <div class="d-flex">
+            <div class="bg-primary align-self-center rounded-1" id="likes">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#fff" class="bi bi-suit-heart-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z" />
+              </svg>
+            </div>
+            <a class="nav-link active text-white fw-bold playlist" aria-current="page" href="#">Brani che ti Piacciono</a>
+          </div>
+        </li>
+        <li class="nav-item d-none d-lg-block">
+          <div class="d-flex">
+            <div class="align-self-center rounded-1" id="bookmark">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-bookmark-fill" viewBox="0 0 16 16">
+                <path
+                  d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z" />
+              </svg>
+            </div>
+            <a class="nav-link active text-white fw-bold playlist" aria-current="page" href="#">I tuoi episodi</a>
+          </div>
+        </li>
+      </ul>
+      <div class="mt-4 pb-4 d-none d-lg-block" id="scroll">
+
+        <p class="playlist manina">Playlist numero 1</p>
+        <p class="playlist manina">Playlist numero 2</p>
+        <p class="playlist manina">Playlist numero 3</p>
+        <p class="playlist manina">Playlist numero 4</p>
+        <p class="playlist manina">Playlist numero 5</p>
+        <p class="playlist manina">Playlist numero 6</p>
+        <p class="playlist manina">Playlist numero 7</p>
+        <p class="playlist manina">Playlist numero 8</p>
+        <p class="playlist manina">Playlist numero 9</p>
+        <p class="playlist manina">Playlist numero 10</p>
+        <p class="playlist manina">Playlist numero 11</p>
+        <p class="playlist manina">Playlist numero 12</p>
+        <p class="playlist manina">Playlist numero 13</p>
+        <p class="playlist manina">Playlist numero 14</p>
+        <p class="playlist manina">Playlist numero 15</p>
+        <p class="playlist manina">Playlist numero 16</p>
+        <p class="playlist manina">Playlist numero 17</p>
+        <p class="playlist manina">Playlist numero 18</p>
+        <p class="playlist manina">Playlist numero 19</p>
+        <p class="playlist manina">Playlist numero 20</p>
+
+       
+
+      </div>
+    </nav>
+    <!------------------------------  MAIN  ------------------------------->
+    <main class="col-12 col-lg-7 pe-0" id="main-home">
+      <div id="scroll-main" class="pb-5 pb-lg-0">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 mt-5 d-none d-lg-block">
+              <div class="card d-flex flex-row" id="card-grande">
+
+              </div>
+            </div>
+          </div>
+          <div class="d-flex d-lg-block justify-content-between align-items-center">
+            <h1 class="my-5 my-lg-2 font-weight-bold">Buongiorno</h1> <div class="d-lg-none"><i class="bi bi-bell me-2"></i><i class="bi bi-clock mx-2"></i><i class="bi bi-gear ms-2"></i></div>
+          </div>
+          
+          <h2 class="d-block d-lg-none my-5">Musica</h2>
+          <div id="popolaPrimeCard" class="row">
+
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="d-none d-lg-flex justify-content-between my-3">
+            <h2>Altro di ciò che ti piace</h2>
+            <p>visualizza tutto</p>
+          </div>
+          <div id="popolaSecondeCard" class="row pt-5 pt-lg-0">
+
+          </div>
+        </div>
+      </div>
+    </main>
+    <!------------------------------  ASIDE  ------------------------------->
+    <aside class="d-none d-lg-block col-lg-2">
+      <div class="d-flex justify-content-between my-3">
+        <h5>Attivita' Amici</h5>
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fff" class="bi bi-person-fill-add me-2"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+            <path
+              d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fff" class="bi bi-x-lg"
+            viewBox="0 0 16 16">
+            <path
+              d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+          </svg>
+        </span>
+      </div>
+      <ul class="aside">
+        <li class="row mb-4">
+          <div class="col-3">
+            <img src="https://i.pinimg.com/564x/13/c0/5a/13c05a2178b6e4a44c3af28d0d7fbb73.jpg"
+              width="40" height="40" alt="profile-logo" class="rounded-circle">
+          </div>
+          <div class="col-9">
+            <h4>Johann Smiths</h3>
+              <p>
+                In Canvas<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fff" class="bi bi-dot"
+                  viewBox="0 0 16 16">
+                  <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                </svg>Julie Lee
+              </p>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-disc me-2"
+                  viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                  <path
+                    d="M10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 4a4 4 0 0 0-4 4 .5.5 0 0 1-1 0 5 5 0 0 1 5-5 .5.5 0 0 1 0 1zm4.5 3.5a.5.5 0 0 1 .5.5 5 5 0 0 1-5 5 .5.5 0 0 1 0-1 4 4 0 0 0 4-4 .5.5 0 0 1 .5-.5z" />
+                </svg>
+                <h6 class="d-inline">Ep Eb</h6>
+              </span>
+          </div>
+        </li>
+        <li class="row mb-4">
+          <div class="col-3">
+            <img src="https://i.pinimg.com/564x/14/09/00/1409005d98a7b6d1a89f415cf9d321f5.jpg" width="40" height="40"
+              alt="profile-logo" class="rounded-circle">
+          </div>
+          <div class="col-9">
+            <h4>Aarold Gruber</h3>
+              <p>
+                Aston of Bill<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fff"
+                  class="bi bi-dot" viewBox="0 0 16 16">
+                  <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                </svg>Num Farhen
+              </p>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-disc me-2"
+                  viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                  <path
+                    d="M10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 4a4 4 0 0 0-4 4 .5.5 0 0 1-1 0 5 5 0 0 1 5-5 .5.5 0 0 1 0 1zm4.5 3.5a.5.5 0 0 1 .5.5 5 5 0 0 1-5 5 .5.5 0 0 1 0-1 4 4 0 0 0 4-4 .5.5 0 0 1 .5-.5z" />
+                </svg>
+                <h6 class="d-inline">Illinois EP</h6>
+              </span>
+          </div>
+        </li>
+        <li class="row mb-4">
+          <div class="col-3">
+            <img
+              src="https://i.pinimg.com/564x/f6/8e/10/f68e1019d3c747a05b5eba0a2927d9e2.jpg"
+              width="40" height="40" alt="profile-logo" class="rounded-circle">
+          </div>
+          <div class="col-9">
+            <h4>Amanda Williams</h3>
+              <p>
+                Rock&Roll<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fff" class="bi bi-dot"
+                  viewBox="0 0 16 16">
+                  <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                </svg>Smoothie Burry
+              </p>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                  class="bi bi-music-note-beamed me-1" viewBox="0 0 16 16">
+                  <path
+                    d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z" />
+                  <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z" />
+                  <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z" />
+                </svg>
+                <h6 class="d-inline">Tailor Buffet mojo</h6>
+              </span>
+          </div>
+        </li>
+      </ul>
+    </aside>
+    <!------------------------------  FOOTER  ------------------------------->
+
+    <footer class="fixed-bottom d-flex justify-content-center align-items-center " id="footer-home">
+      <div class="player d-flex justify-content-center justify-content-lg-around">
+        <!-- Define the section for displaying details -->
+        <div class="details d-flex text-center align-items-center" id="footer-contenitore">
+          <div class="track-art d-none d-lg-block"></div>
+          <div class="container d-flex flex-lg-column align-items-center justify-content-center">
+            <div> <p class="track-name text-truncate mx-4 mx-lg-0 ">Track Name</p></div>
+            <div class="track-artist d-none d-lg-block">Track Artist</div>
+          </div>
+          
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"
+            class="bi bi-music-player-fill d-lg-none me-2" viewBox="0 0 16 16">
+            <path d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+            <path
+              d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm1 2h6a1 1 0 0 1 1 1v2.5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1zm3 12a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+          </svg> -->
+          <div>
+            <i class="bi bi-heart fa-2x mx-4 mx-lg-0 manina" onclick="coloraVerde(this)"></i>
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-heart heart_spoty"
+              viewBox="0 0 16 16">
+              <path
+                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+            </svg> -->
+          </div>
+        </div>
+
+        <div class="d-flex flex-column">
+          <!-- Define the section for displaying track buttons -->
+          <div class="buttons d-flex align-items-center justify-content-center">
+            <div class="prev-track d-none d-lg-block">
+              <i class="fa fa-step-backward fa-1x"></i>
+            </div>
+            <div class="playpause-track">
+              <i class="fa fa-play-circle fa-2x mx-4 mx-lg-0  "></i>
+            </div>
+            <div class="next-track d-none d-lg-block">
+              <i class="fa fa-step-forward fa-1x"></i>
+            </div>
+          </div>
+
+          <!-- Define the section for displaying the seek slider-->
+          <div class="slider_container d-lg-flex d-none" id="container-duration">
+            <div class="current-time">00:00</div>
+            <input type="range" min="1" max="100" value="0" class="seek_slider styled-slider slider-progress">
+            <div class="total-duration">00:00</div>
+          </div>
+        </div>
+
+
+        <!-- Define the section for displaying the volume slider-->
+        <div class="slider_container d-flex flex-row align-items-center justify-content-center d-none d-lg-block">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mic"
+            viewBox="0 0 16 16">
+            <path
+              d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z" />
+            <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-music-player-fill" viewBox="0 0 16 16">
+            <path d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+            <path
+              d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm1 2h6a1 1 0 0 1 1 1v2.5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1zm3 12a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+          </svg>
+          <i class="fa fa-volume-up"></i>
+          <input type="range" min="1" max="100" value="99" class="volume_slider styled-slider slider-progress">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-arrows-angle-expand" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z" />
+          </svg>
+
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/home.js"></script>
+</body>
+
+</html>
