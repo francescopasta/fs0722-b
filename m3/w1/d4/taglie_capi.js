@@ -39,18 +39,6 @@ fetch("./starter/Abbigliamento.json")
     for (var i = 0; i < myJson.length; i++) {
         var capi = new Capo(myJson[i].id, myJson[i].codprod, myJson[i].collezione, myJson[i].capo, myJson[i].modello, myJson[i].quantita, myJson[i].colore, myJson[i].bg, myJson[i].prezzoivaesclusa, myJson[i].prezzoivainclusa, myJson[i].disponibile, myJson[i].saldo);
         if(capi.collezione == "inverno"){
-            console.log(capi.id)
-            console.log(capi.codprod)
-            console.log(capi.collezione)
-            console.log(capi.capo)
-            console.log(capi.modello)
-            console.log(capi.quantita)
-            console.log(capi.colore)
-            console.log(capi.bg)
-            console.log(capi.prezzoivainclusa)
-            console.log(capi.prezzoivaesclusa)
-            console.log(capi.disponibile)
-            console.log(capi.saldo)
             if(capi.disponibile == "negozio"){
                 
                 console.log(capi.getAcquistoCapo())
@@ -63,7 +51,10 @@ fetch("./starter/Abbigliamento.json")
                         </div>
                         <div class="card-body">
                             <button type="button" class="btn btn-danger btn-lg fw-3 mb-2">Scontato del ${capi.saldo}%</button>
-                            <p class="card-text text-muted">${capi.codprod}</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text text-muted">${capi.codprod}</p>
+                                <p class="card-text text-dark">Modello: ${capi.modello}</p>
+                            </div>
                             <a href="#" class="card-link text-primary fs-4">${capi.getAcquistoCapo()}$</a>
                             <a href="#" class="card-link text-primary">${capi.quantita} rimasti</a>
                         </div>
@@ -79,7 +70,10 @@ fetch("./starter/Abbigliamento.json")
                         </div>
                         <div class="card-body">
                             <button type="button" class="btn btn-danger btn-lg fw-3 mb-2">Scontato del ${capi.saldo}%</button>
-                            <p class="card-text text-muted">${capi.codprod}</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text text-muted">${capi.codprod}</p>
+                                <p class="card-text text-dark">Modello: ${capi.modello}</p>
+                            </div>
                             <a href="#" class="card-link text-primary fs-4">${capi.getAcquistoCapo()}$</a>
                             <a href="#" class="card-link text-primary">${capi.quantita} rimasti</a>
                         </div>
@@ -89,7 +83,6 @@ fetch("./starter/Abbigliamento.json")
             
         } else if(capi.collezione == "estate"){
             if(capi.disponibile == "negozio"){
-                //console.log(capi.collezione)
                 summerN.innerHTML = `
                     <h3>Negozio</h3>
                     <div class="card" style="width: 18rem;">
@@ -99,7 +92,10 @@ fetch("./starter/Abbigliamento.json")
                         </div>
                         <div class="card-body">
                             <button type="button" class="btn btn-danger btn-lg fw-3 mb-2">Scontato del ${capi.saldo}%</button>
-                            <p class="card-text text-muted">${capi.codprod}</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text text-muted">${capi.codprod}</p>
+                                <p class="card-text text-dark">Modello: ${capi.modello}</p>
+                            </div>
                             <a href="#" class="card-link text-primary fs-4">${capi.getAcquistoCapo()}$</a>
                             <a href="#" class="card-link text-primary">${capi.quantita} rimasti</a>
                         </div>
@@ -115,7 +111,10 @@ fetch("./starter/Abbigliamento.json")
                         </div>
                         <div class="card-body">
                             <button type="button" class="btn btn-danger btn-lg fw-3 mb-2">Scontato del ${capi.saldo}%</button>
-                            <p class="card-text text-muted">${capi.codprod}</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text text-muted">${capi.codprod}</p>
+                                <p class="card-text text-dark">Modello: ${capi.modello}</p>
+                            </div>
                             <a href="#" class="card-link text-primary fs-4">${capi.getAcquistoCapo()}$</a>
                             <a href="#" class="card-link text-primary">${capi.quantita} rimasti</a>
                         </div>
@@ -134,7 +133,10 @@ fetch("./starter/Abbigliamento.json")
                         </div>
                         <div class="card-body">
                             <button type="button" class="btn btn-danger btn-lg fw-3 mb-2">Scontato del ${capi.saldo}%</button>
-                            <p class="card-text text-muted">${capi.codprod}</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text text-muted">${capi.codprod}</p>
+                                <p class="card-text text-dark">Modello: ${capi.modello}</p>
+                            </div>
                             <a href="#" class="card-link text-primary fs-4">${capi.getAcquistoCapo()}$</a>
                             <a href="#" class="card-link text-primary">${capi.quantita} rimasti</a>
                         </div>
@@ -150,7 +152,10 @@ fetch("./starter/Abbigliamento.json")
                         </div>
                         <div class="card-body">
                             <button type="button" class="btn btn-danger btn-lg fw-3 mb-2">Scontato del ${capi.saldo}%</button>
-                            <p class="card-text text-muted">${capi.codprod}</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="card-text text-muted">${capi.codprod}</p>
+                                <p class="card-text text-dark">Modello: ${capi.modello}</p>
+                            </div>
                             <a href="#" class="card-link text-primary fs-4">${capi.getAcquistoCapo()}$</a>
                             <a href="#" class="card-link text-primary">${capi.quantita} rimasti</a>
                         </div>
