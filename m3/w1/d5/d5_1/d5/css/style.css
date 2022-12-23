@@ -1,0 +1,104 @@
+body {
+  background-color: black;
+}
+
+main #homeSfondo {
+  background-image: url("https://i.pinimg.com/564x/5d/37/64/5d376459497e389a5811b4e171783cd9.jpg");
+  width: 310px;
+  height: 635px;
+  border-radius: 55px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main #sfondo {
+  background-image: url("https://i.pinimg.com/564x/7b/45/a2/7b45a2c80a250742c4d6f7418d656e8f.jpg");
+  width: 310px;
+  height: 635px;
+  border-radius: 55px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main #phone {
+  position: absolute;
+  border-radius: 55px;
+  background-image: url("https://media.discordapp.net/attachments/1055762224498622534/1055793982598291456/01.png?width=209&height=427");
+  width: 310px;
+  height: 635px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main #phone #div1 {
+  margin: 0px 28px;
+  margin-top: 60px;
+  text-align: center;
+}
+main #phone #div1 h1 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgb(255, 255, 255), 1px 1px 5px rgb(255, 255, 255), 1px 1px 5px rgb(196, 196, 196), 1px 1px 5px rgb(175, 175, 175), 1px 1px 5px rgb(181, 250, 255), 1px 1px 5px rgb(149, 240, 247);
+}
+main #phone #div1 button {
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 6px 15px 8px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0d6efd;
+  box-shadow: 0px 0px 3px rgb(177, 202, 255), 0px 0px 3px rgb(177, 202, 255), 0px 0px 5px rgb(92, 89, 238), 0px 0px 5px rgb(92, 89, 238), 0px 0px 10px #0d6efd, 0px 0px 10px #0d6efd;
+}
+main #phone #div2 {
+  margin: 0px 28px;
+  margin-top: 60px;
+}
+main #phone #div2 h1 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgb(255, 255, 255), 1px 1px 5px rgb(255, 255, 255), 1px 1px 5px rgb(196, 196, 196), 1px 1px 5px rgb(175, 175, 175), 1px 1px 5px rgb(181, 250, 255), 1px 1px 5px rgb(149, 240, 247);
+}
+main #phone #div2 div button {
+  font-weight: 600;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0d6efd;
+  box-shadow: 3px 3px 5px rgb(177, 202, 255), 3px 3px 5px rgb(177, 202, 255), 3px 3px 5px rgb(84, 81, 226), 3px 3px 5px rgb(92, 89, 238), 3px 3px 5px #0d6efd, 3px 3px 5px #0d6efd;
+}
+main #phone #div2 #logout {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(192, 20, 20);
+  box-shadow: 0px 0px 3px rgb(255, 222, 222), 0px 0px 3px rgb(255, 222, 222), 0px 0px 5px rgb(248, 75, 75), 0px 0px 5px rgb(248, 75, 75), 0px 0px 10px rgb(192, 20, 20), 0px 0px 10px rgb(192, 20, 20);
+}
+main #phone #div2 #chiama {
+  padding: 6px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(21, 128, 21);
+  font-size: 1.1rem;
+  font-weight: 500;
+  box-shadow: 3px 3px 5px rgba(143, 204, 143, 0.836), 3px 3px 5px rgba(143, 204, 143, 0.788), 0px 0px 0px, 0px 0px 0px, 3px 3px 5px rgb(21, 128, 21), 3px 3px 5px rgb(21, 128, 21);
+}
+main #phone #div2 #nr_chiamate {
+  color: rgb(241, 241, 241);
+  padding: 6px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(91, 196, 196);
+  font-size: 1.1rem;
+  font-weight: 500;
+  box-shadow: -3px 3px 5px rgba(178, 240, 240, 0.829), -3px 3px 5px rgba(178, 240, 240, 0.788), 0px 0px 0px, 0px 0px 0px, -3px 3px 5px rgb(91, 196, 196), -3px 3px 5px rgb(91, 196, 196);
+}
+main #phone #div2 #reset_chiamate {
+  padding: 6px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(235, 203, 21);
+  font-size: 1.1rem;
+  font-weight: 500;
+  box-shadow: 3px 3px 5px rgba(255, 230, 88, 0.753), 3px 3px 5px rgba(255, 230, 88, 0.753), 0px 0px 0px, 0px 0px 0px, 3px 3px 5px rgb(235, 203, 21), 3px 3px 5px rgb(235, 203, 21);
+}

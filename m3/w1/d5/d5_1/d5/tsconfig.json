@@ -1,0 +1,29 @@
+// https://www.typescriptlang.org/docs/handbook/configuring-watch.html
+{
+    // Alcune opzioni tipiche del compilatore
+    "compilerOptions": {
+        "target": "ES6",
+        "moduleResolution": "node",
+        "removeComments": true,
+
+        // ...
+    },
+    // Opzioni per il watching
+    "watchOptions": {
+        // Uso il file system nativo per gli eventi per i files e le directories
+        "watchFile": "useFsEvents",
+        "watchDirectory": "useFsEvents",
+        // Eseguire il polling dei file per gli aggiornamenti più frequentemente
+        "fallbackPolling": "dynamicPriority",
+        // Non fondere le notifiche di watch
+        "synchronousWatchDirectory": true,
+        // Due settings addizionali per ridurre l'ammontare dei file nelle directories
+        "excludeDirectories": [
+            "**/node_modules",
+            "_build"
+        ],
+        "excludeFiles": [
+            "build/fileWhichChangesOften.ts"
+        ]
+    }
+}
