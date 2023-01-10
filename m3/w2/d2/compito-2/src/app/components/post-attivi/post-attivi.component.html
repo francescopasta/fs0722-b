@@ -1,0 +1,4 @@
+<ul class="list-group">
+  <li *ngFor="let articolo of articoli" class="list-group-item" [routerLink]="['/users', articolo.id]">{{articolo.body + ' ' + articolo.title}}</li>
+</ul>
+<router-outlet></router-outlet>
