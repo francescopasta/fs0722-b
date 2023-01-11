@@ -1,0 +1,7 @@
+<h1>Post attivi</h1>
+<div class="container">
+  <app-card-post [post]="articolo" *ngFor="let articolo of posts">
+     <button class="btn btn-primary me-2" (click)="change(articolo.id)" (click)="ngOnInit()">Disattiva</button>
+  </app-card-post>
+
+</div>
