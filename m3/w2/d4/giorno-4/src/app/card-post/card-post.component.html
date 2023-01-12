@@ -1,0 +1,17 @@
+<div [ngClass]="{
+  'bg-warning': post.type =='news',
+  'bg-info': post.type =='education',
+  'bg-dark': post.type =='politic',
+  'text-white': post.type =='politic'
+}" [ngStyle]="" class="card mb-4">
+<h5 class="card-header">Post</h5>
+<div class="card-body">
+  <h5 class="card-title">{{post.title | maiusc}}</h5>
+  <p class="card-text"> {{post.body}} </p>
+  <div class="d-flex justify-content-between">
+    <ng-content></ng-content>
+    <h6 appHighlight>{{post.author}}</h6>
+  </div>
+
+</div>
+</div>

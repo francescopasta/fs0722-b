@@ -1,0 +1,7 @@
+
+<div class="d-flex justify-content-around">
+  <router-outlet></router-outlet>
+  <ul class="list-group">
+    <li class="list-group-item p-3" *ngFor="let utente of users"><a [routerLink]="['user-details/'+ utente.id]">{{utente.nome}}</a></li>
+  </ul>
+</div>
