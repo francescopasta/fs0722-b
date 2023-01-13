@@ -1,0 +1,27 @@
+<body>
+  <nav class="navbar navbar-expand-lg bg-primary py-4">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <!-- <a class="nav-link active" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a> -->
+          </li>
+          <li class="nav-item fs-2 fw-bold">
+            <a class="nav-link" routerLink="/todo" routerLinkActive="active">To-Do</a>
+
+          </li>
+          <li class="nav-item fs-2 fw-bold">
+            <a class="nav-link" routerLink="/completati"  routerLinkActive="active">Completati</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <router-outlet></router-outlet>
+</body>
+
+
