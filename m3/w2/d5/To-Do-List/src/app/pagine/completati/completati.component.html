@@ -1,12 +1,12 @@
 <div class="d-flex justify-content-center mt-5">
-  <div class="card p-5 text-center" style="width: 28rem;">
+  <div class="card p-5 text-center mb-5" style="width: 28rem;">
     <div class="fs-4" *ngIf="controlloDue">ricerco task...</div>
     <div class="fs-4" *ngIf="controlloTre && !controllo">elimino task...</div>
 
     <div class="fs-4" *ngIf="controllo && todos.length == 0">nessun task completato</div>
 
     <div *ngIf="controllo && todos.length > 0">
-      <div class="container d-flex justify-content-around align-content-center" *ngFor="let todo of todos">
+      <div class="container d-flex justify-content-around align-content-centers" *ngFor="let todo of todos">
         <p class="fs-3">{{ todo.title }}</p>
         <div class="btn fs-4" (click)="elimina(todo.id)">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-trash-fill" viewBox="0 0 16 16">
