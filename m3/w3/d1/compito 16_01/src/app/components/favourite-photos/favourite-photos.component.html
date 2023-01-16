@@ -1,0 +1,22 @@
+<div class="d-flex justify-content-center">
+  <div *ngIf="done" class="row m-5">
+    <div class="col-5 border border-dark rounded m-2" style="width: 350px" *ngFor="let photo of foto">
+      <div class="mx-5 mt-5">
+        <p>{{photo.id}}</p>
+        <img src="{{photo.thumbnailUrl}}">
+        <p>{{photo.title}}</p>
+      </div>
+      <div>
+        <div class="btn btn-primary rounded text-white me-3 mb-2" (click)="elimina(photo.id)">Elimina</div>
+        <div class="btn btn-danger rounded text-white me-3 mb-2" (click)="miPiace()">Mi Piace</div>
+        <h5>Likes: {{piaciuti}}</h5>
+      </div>
+    </div>
+  </div>
+</div>
+<div *ngIf="!done" class="mx-5 mt-5 d-flex">
+  <div class="dot-loader"></div>
+  <div class="dot-loader"></div>
+  <div class="dot-loader"></div>
+</div>
+
