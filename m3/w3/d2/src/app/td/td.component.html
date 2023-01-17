@@ -1,0 +1,45 @@
+<div class="container">
+  <h1 class="text-center">TD Form</h1>
+  <div class="container">
+      <div class="row">
+          <div class="col">
+              <div>
+                  <form #form="ngForm" (ngSubmit)="submit()">
+                      <div ngModelGroup="userInfo" id="userInfo" #userGroup="ngModelGroup">
+                          <div class="form-group">
+                              <label for="nomeHero">Nome Eroe</label>
+                              <input type="text" id="username" [ngModel]="heroForm.nome" name="nomeHero" class="form-control" required #nome="ngModel">
+                              <p *ngIf="nome.invalid && nome.touched" class="fst-italic">Obbligatorio</p>
+                          </div>
+                          <div class="form-group">
+                              <label for="alterego">Alterego</label>
+                              <input type="text" id="alterego" name="alterego" [ngModel]="heroForm.alterEgo" required class=" form-control" #alterEgo="ngModel">
+                              <p *ngIf="alterEgo.invalid && alterEgo.touched" class="fst-italic">Obbligatorio</p>
+                          </div>
+                          <div class="form-group">
+                              <label for="sPower">SuperPotere</label>
+                              <select id="sPower" name="sPower" class="form-select" [ngModel]="heroForm.potere" required #potere="ngModel">
+                                  <option value="potere" *ngFor="let i of superPoteri">{{i.label}}</option>
+                              </select>
+                              <p *ngIf="potere.invalid && potere.touched" class="fst-italic">Obbligatorio</p>
+                          </div>
+                          <div class="form-group">
+                            <label for="pianeta">Pianeta</label>
+                            <input type="text" id="pianeta" name="pianeta" [ngModel]="heroForm.alterEgo" required minlength="5" class=" form-control" #pianeta="ngModel">
+                            <p *ngIf="pianeta.invalid && pianeta.touched" class="fst-italic">il nome del pianeta deve essere lungo di almeno 5 caratteri</p>
+                          </div>
+                          <div class="form-group">
+                            <label for="nemico">Nemico</label>
+                            <input type="text" id="nemico" name="nemico" [ngModel]="heroForm.alterEgo" maxlength="10" class=" form-control">
+                          </div>
+                          <div class="form-group">
+                            <label for="debolezza">Debolezza</label>
+                            <input type="text" id="debolezza" name="debolezza" [ngModel]="heroForm.alterEgo" class=" form-control">
+                          </div>
+                          <button type="submit" class="btn btn-primary mt-3" [disabled]="form.invalid">Invia</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
