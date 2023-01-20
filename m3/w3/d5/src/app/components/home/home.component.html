@@ -1,0 +1,17 @@
+<!-- <button type="button" class="btn btn-danger" (click)="onLogout()" *ngIf="isLoggedIn">Logout</button> -->
+<div class="container-fluid p-0 row">
+    <div class="col-2">
+        <app-navbar></app-navbar>
+    </div>
+
+    <div class="col-10" style="background-color: black; padding: 0 0">
+        <div
+            class="container py-3 barra"
+            style="background-color: #d12b58; color: #d12b58"
+        >
+            MOVIES
+        </div>
+
+        <router-outlet></router-outlet>
+    </div>
+</div>

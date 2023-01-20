@@ -1,0 +1,22 @@
+
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-4 rounded mt-5" style="background-color: #414141;">
+            <form #f="ngForm" (ngSubmit)="login(f)">
+
+                <div class="mb-3">
+                    <h3 class="text-light mt-3 ps-4">Login</h3>
+                    <label for="exampleInputEmail1" class="form-label text-light mt-2">email</label>
+                    <input type="email" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" ngModel required email>
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label text-light">password</label>
+                    <input type="password" class="form-control w-75" id="exampleInputPassword1" name = "password" ngModel required>
+                </div>
+                <button type="submit" class="btn mt-5 mb-3 text-light">Accedi</button>
+            </form>
+        </div>
+        <span class="text-light text-center">Non hai un account? <a [routerLink]= "'/signup'" class="text-light text-center">Registrati</a></span>
+    </div>
+</div>

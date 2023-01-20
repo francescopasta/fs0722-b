@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-4 rounded mt-5" style="background-color: #414141;">
+            <form #f="ngForm" (ngSubmit)="register(f)">
+
+                <div class="mb-3">
+                    <h3 class="text-light mt-3 ps-4">Signup</h3>
+                    <label for="exampleInputName1" class="form-label text-light mt-2">nome</label>
+                    <input type="text" class="form-control w-75" aria-describedby="nameHelp" name="name" ngModel required name>
+                </div>
+
+
+                <div class="mb-3">
+                    <label for="exampleInputSurname1" class="form-label text-light mt-2">cognome</label>
+                    <input type="text" class="form-control w-75" aria-describedby="surnameHelp" name="surname" ngModel required surname>
+                </div>
+
+
+                <div class="mb-3">
+
+                    <label for="exampleInputEmail1" class="form-label text-light mt-2">email</label>
+                    <input type="email" class="form-control w-75" aria-describedby="emailHelp" name="email" ngModel required email>
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label text-light">password</label>
+                    <input type="password" class="form-control w-75" name = "password" ngModel required>
+                </div>
+                <button type="submit" class="btn mt-5 mb-3 text-light">Registrati</button>
+            </form>
+        </div>
+        <span class="text-light text-center">Sei già registrato? <a [routerLink]= "'/login'" class="text-light text-center">Login</a></span>
+    </div>
+</div>
