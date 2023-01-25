@@ -1,0 +1,187 @@
+<div [ngClass]="post.userId==1 ? 'reverendo': ''" [ngClass]="post.userId==2 ? 'plum': ''"
+    [ngClass]="post.userId==3 ? 'mustard': ''" [ngClass]="post.userId==4 ? 'peacock': ''"
+    [ngClass]="post.userId==5 ? 'joker': ''" [ngClass]="post.userId==6 ? 'scarlet': ''"
+    [ngClass]="post.userId==7 ? 'cable': ''" [ngClass]="post.userId==8 ? 'thanos': ''"
+    class="d-flex flex-column align-items-center">
+    <h1 class="text-center mt-2" id="titolo_edit">View Post</h1>
+    <button class="btn btn-danger ms-5 mt-2 align-self-start" (click)="tornaHome()">Back</button>
+    <div class="card w-50 m-3 contenitore_card ">
+        <div class="card-header fw-bolder" appHighLight>Post numero {{ post.id}}</div>
+        <div class="card-body">
+            <h5 class="card-title text-center">{{ post.title}}</h5>
+            <p class="card-text text-center">{{ post.body }}</p>
+            <div class="d-flex flex-column align-items-center">
+                <img class="rounded-2 immagine_card" *ngIf="post.userId==1"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/2a3e7293168665.5e5e2c0261bf6.png"
+                    alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==1">Autore: Reverendo Green</p>
+                <img class="rounded-2 immagine_card" *ngIf="post.userId==2"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/9c9a9793168665.5e5e2c026427f.png"
+                    alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==2">Autore: Professor Plum</p>
+                <img class="rounded-2 immagine_card" *ngIf="post.userId==3"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35652193168665.5e5e2c026478f.png"
+                    alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==3">Autore: Capitano Mustard</p>
+                <img class="rounded-2 immagine_card" *ngIf="post.userId==4"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/03f46093168665.5e5e2c02639a1.png"
+                    alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==4">Autrice: Mrs Peacock</p>
+                <img class="rounded-2 immagine_card" *ngIf="post.userId==5"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/69c02824412809.60f18a08e91b9.jpg" alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==5">Autore: Dr. Joker</p>
+                <img class="rounded-2 immagine_card" *ngIf="post.userId==6"
+                    src="https://cdn.discordapp.com/attachments/1041633323535056927/1067395070459916368/download.jpg"
+                    alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==6">Autrice: Miss Scarlet</p>
+                <img class="rounded-2 immagine_card" *ngIf="post.userId==7"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/17a19574352001.5c2d26e21ceea.jpg" alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==7">Autore: Cable</p>
+                <img class="rounded-2 immagine_card" *ngIf="post.userId==8"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/aa457e75012153.5c408ef77350d.jpg"
+                    alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==8">Autore: Thanos</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- PRIMA PROVA, FUNZIONANTE MA NON OTTIMIZZATA: CODICE RIPETITIVO -->
+
+<!-- <div *ngIf="post.userId==1" class="d-flex flex-column align-items-center reverendo">
+    <h1 class="text-center mt-2" id="titolo_edit">View Post</h1>
+    <button class="btn btn-danger ms-5 mt-2 align-self-start" (click)="tornaHome()">Back</button>
+    <div *ngIf="post" class="card w-50 m-3 contenitore_card">
+        <div class="card-header fw-bolder" appHighLight>Post numero {{ post.id}}</div>
+        <div class="card-body">
+            <h5 class="card-title text-center">{{ post.title}}</h5>
+            <p class="card-text text-center">{{ post.body }}</p>
+            <div class="d-flex flex-column align-items-center">
+                <img class="rounded-2 w-25 immagine_card" *ngIf="post.userId==1"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/2a3e7293168665.5e5e2c0261bf6.png"
+                    alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==1">Autore: Reverendo Green</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="post.userId==2" class="d-flex flex-column align-items-center plum">
+    <h1 class="text-center mt-2" id="titolo_edit">View Post</h1>
+    <button class="btn btn-danger ms-5 mt-2 align-self-start" (click)="tornaHome()">Back</button>
+    <div *ngIf="post" class="card w-50 m-3 contenitore_card">
+        <div class="card-header fw-bolder" appHighLight>Post numero {{ post.id}}</div>
+        <div class="card-body">
+            <h5 class="card-title text-center">{{ post.title}}</h5>
+            <p class="card-text text-center">{{ post.body }}</p>
+            <div class="d-flex flex-column align-items-center">
+                <img class="rounded-2 w-25 immagine_card" *ngIf="post.userId==2"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/9c9a9793168665.5e5e2c026427f.png"
+                    alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==2">Autore: Professor Plum</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="post.userId==3" class="d-flex flex-column align-items-center mustard">
+    <h1 class="text-center mt-2" id="titolo_edit">View Post</h1>
+    <button class="btn btn-danger ms-5 mt-2 align-self-start" (click)="tornaHome()">Back</button>
+    <div *ngIf="post" class="card w-50 m-3 contenitore_card">
+        <div class="card-header fw-bolder" appHighLight>Post numero {{ post.id}}</div>
+        <div class="card-body">
+            <h5 class="card-title text-center">{{ post.title}}</h5>
+            <p class="card-text text-center">{{ post.body }}</p>
+            <div class="d-flex flex-column align-items-center">
+                <img class="rounded-2 w-25 immagine_card" *ngIf="post.userId==3"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35652193168665.5e5e2c026478f.png"
+                    alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==3">Autore: Capitano Mustard</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="post.userId==4" class="d-flex flex-column align-items-center peacock">
+    <h1 class="text-center mt-2" id="titolo_edit">View Post</h1>
+    <button class="btn btn-danger ms-5 mt-2 align-self-start" (click)="tornaHome()">Back</button>
+    <div *ngIf="post" class="card w-50 m-3 contenitore_card">
+        <div class="card-header fw-bolder" appHighLight>Post numero {{ post.id}}</div>
+        <div class="card-body">
+            <h5 class="card-title text-center">{{ post.title}}</h5>
+            <p class="card-text text-center">{{ post.body }}</p>
+            <div class="d-flex flex-column align-items-center">
+                <img class="rounded-2 w-25 immagine_card" *ngIf="post.userId==4"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/03f46093168665.5e5e2c02639a1.png"
+                    alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==4">Autrice: Mrs Peacock</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="post.userId==5" class="d-flex flex-column align-items-center joker">
+    <h1 class="text-center mt-2" id="titolo_edit">View Post</h1>
+    <button class="btn btn-danger ms-5 mt-2 align-self-start" (click)="tornaHome()">Back</button>
+    <div *ngIf="post" class="card w-50 m-3 contenitore_card">
+        <div class="card-header fw-bolder" appHighLight>Post numero {{ post.id}}</div>
+        <div class="card-body">
+            <h5 class="card-title text-center">{{ post.title}}</h5>
+            <p class="card-text text-center">{{ post.body }}</p>
+            <div class="d-flex flex-column align-items-center">
+                <img class="rounded-2 w-25 immagine_card" *ngIf="post.userId==5"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/69c02824412809.60f18a08e91b9.jpg" alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==5">Autore: Dr. Joker</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="post.userId==6" class="d-flex flex-column align-items-center scarlet">
+    <h1 class="text-center mt-2" id="titolo_edit">View Post</h1>
+    <button class="btn btn-danger ms-5 mt-2 align-self-start" (click)="tornaHome()">Back</button>
+    <div *ngIf="post" class="card w-50 m-3 contenitore_card">
+        <div class="card-header fw-bolder" appHighLight>Post numero {{ post.id}}</div>
+        <div class="card-body">
+            <h5 class="card-title text-center">{{ post.title}}</h5>
+            <p class="card-text text-center">{{ post.body }}</p>
+            <div class="d-flex flex-column align-items-center">
+                <img class="rounded-2 w-25 immagine_card" *ngIf="post.userId==6"
+                    src="https://cdn.discordapp.com/attachments/1041633323535056927/1067395070459916368/download.jpg"
+                    alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==6">Autrice: Miss Scarlet</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="post.userId==7" class="d-flex flex-column align-items-center cable">
+    <h1 class="text-center mt-2" id="titolo_edit">View Post</h1>
+    <button class="btn btn-danger ms-5 mt-2 align-self-start" (click)="tornaHome()">Back</button>
+    <div *ngIf="post" class="card w-50 m-3 contenitore_card">
+        <div class="card-header fw-bolder" appHighLight>Post numero {{ post.id}}</div>
+        <div class="card-body">
+            <h5 class="card-title text-center">{{ post.title}}</h5>
+            <p class="card-text text-center">{{ post.body }}</p>
+            <div class="d-flex flex-column align-items-center">
+                <img class="rounded-2 w-25 immagine_card" *ngIf="post.userId==7"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/17a19574352001.5c2d26e21ceea.jpg" alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==7">Autore: Cable</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="post.userId==8" class="d-flex flex-column align-items-center thanos">
+    <h1 class="text-center mt-2" id="titolo_edit">View Post</h1>
+    <button class="btn btn-danger ms-5 mt-2 align-self-start" (click)="tornaHome()">Back</button>
+    <div *ngIf="post" class="card w-50 m-3 contenitore_card">
+        <div class="card-header fw-bolder" appHighLight>Post numero {{ post.id}}</div>
+        <div class="card-body">
+            <h5 class="card-title text-center">{{ post.title}}</h5>
+            <p class="card-text text-center">{{ post.body }}</p>
+            <div class="d-flex flex-column align-items-center">
+                <img class="rounded-2 w-25 immagine_card" *ngIf="post.userId==8"
+                    src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/aa457e75012153.5c408ef77350d.jpg"
+                    alt="">
+                <p class="card-text pt-2 fw-bold" *ngIf="post.userId==8">Autore: Thanos</p>
+            </div>
+        </div>
+    </div> -->

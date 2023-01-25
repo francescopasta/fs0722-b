@@ -1,0 +1,36 @@
+<div class="create d-flex flex-column align-items-center">
+    <h1 class="text-center" id="titolo_create">Create New Post</h1>
+
+    <button class="btn btn-danger ms-5 align-self-start" (click)="tornaHome()">Back</button>
+
+    <div class="contenitore_card w-50">
+        <form class="text-center" #form="ngForm" (ngSubmit)="crea(form)">
+
+            <h4>Seleziona Utente:</h4>
+            <select class="form-select form-select-lg mb-3 mx-auto w-50 text-center"
+                aria-label=".form-select-lg example" ngModel name="id">
+                <option selected value="1">Reverendo Green</option>
+                <option value="2">Professor Plum</option>
+                <option value="3">Capitano Mustard</option>
+                <option value="4">Mrs Peacock</option>
+                <option value="5">Dr. Joker</option>
+                <option value="6">Miss Scarlet</option>
+                <option value="7">Cable</option>
+                <option value="8">Thanos</option>
+
+            </select>
+
+            <h4>Titolo:</h4>
+            <input class="p-3 border rounded form-control w-50 mx-auto" ngModel name="title" type="text"
+                placeholder="Titolo Nuovo Post" spellcheck="false" />
+            <h4 class="my-2">Testo:</h4>
+            <textarea class="p-3 border rounded form-control w-50 mx-auto" ngModel name="body" cols="30" rows="5"
+                placeholder="Testo Nuovo Post" spellcheck="false"></textarea>
+
+
+            <div class="d-flex justify-content-center mt-2">
+                <button class="btn pesca" type="submit">Invia</button>
+            </div>
+        </form>
+    </div>
+</div>

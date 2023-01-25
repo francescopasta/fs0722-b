@@ -1,0 +1,21 @@
+.create {
+    background-image: url(../../../assets/IMG/sfondo_legno.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    height: 100vh;
+}
+
+#titolo_create {
+    // backdrop-filter: blur(10px);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+    color: rgb(23, 60, 97);
+    cursor: pointer;
+}
+
+.contenitore_card {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 10px;
+    filter: drop-shadow(3px 0 3px #000);
+}

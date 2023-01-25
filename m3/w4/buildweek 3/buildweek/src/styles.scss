@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.pesca {
+    background-color: #fd7b4c;
+    color: white;
+
+    &:hover {
+        background-color: #d96940;
+        color: white;
+    }
+}

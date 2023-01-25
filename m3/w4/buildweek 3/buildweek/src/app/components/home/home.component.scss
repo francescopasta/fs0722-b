@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.home {
+    background-image: url(../../../assets/IMG/sfondo_legno.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+#navbar {
+    background-color: rgba(222, 184, 135, 0.4);
+    position: sticky;
+    border-radius: 0 0 5px 5px;
+    top: 0;
+    z-index: 1;
+    height: 100px;
+}
+
+#titolo {
+    // backdrop-filter: blur(10px);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+    color: rgb(23, 60, 97);
+    cursor: pointer;
+}
+
+#intestazione {
+    position: sticky;
+    top: 100px;
+    border-radius: 0 0 5px 5px;
+    z-index: 1;
+    background-color: rgba(222, 184, 135, 0.4);
+}
+
+#btn_aggiungi_post {
+    position: sticky;
+    top: 80px;
+
+    & button {
+        font-size: 0.8rem;
+        border-radius: 50px;
+        width: 160px;
+    }
+}
+
+#btn_cerca_post {
+    position: sticky;
+    top: 80px;
+
+    & input {
+        background-color: rgb(228, 228, 228);
+        font-size: 0.8rem;
+        border-radius: 50px 0 0 50px;
+        width: 160px;
+        padding: 5px 10px;
+        border: 1px solid gray;
+        border-right: 0;
+    }
+
+    & button {
+        background-color: rgb(228, 228, 228);
+        font-size: 0.8rem;
+        border-radius: 0 50px 50px 0;
+        padding: 5px 10px;
+        border: 1px solid gray;
+        border-left: 0;
+    }
+}
+
+#btn_01 {
+    &:hover {
+        background-color: rgb(109, 176, 243);
+    }
+}
+
+#btn_02 {
+    &:hover {
+        background-color: rgb(174, 174, 138);
+    }
+}
+
+#btn_03 {
+    &:hover {
+        background-color: rgb(211, 97, 65);
+    }
+}
+
+#riga {
+    height: 140px;
+    cursor: pointer;
+    transition: 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
+
+    &:hover {
+        background-color: rgba(222, 184, 135, 0.3);
+        transform: scale(1.01);
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px #000;
+    }
+}
+
+#titolo_articolo {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

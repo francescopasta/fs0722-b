@@ -1,0 +1,93 @@
+<div class="home">
+    <div class="container">
+        <div id="navbar" class="row fw-bold">
+            <div class="col-2 d-flex">
+                <div id="btn_aggiungi_post" class="align-items-center d-flex mx-auto">
+                    <button class="btn btn-success" (click)="nuovoPost()">
+                        <i class="bi bi-plus-lg"><span> Add a new post</span></i>
+                    </button>
+                </div>
+            </div>
+            <div class="col-8 align-items-center mt-2">
+                <h1 id="titolo" class="text-center">il Blog dei Disagiati</h1>
+            </div>
+            <div class="col-2 d-flex">
+                <div id="btn_cerca_post" class="align-items-center d-flex mx-auto">
+                    <form #form="ngForm" (ngSubmit)="cerca(form)" class="d-flex">
+                        <input type="number" placeholder="Search by Number" ngModel name="ricerca" />
+                        <button type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="intestazione" class="row fw-bold">
+                <div class="col-3 d-flex">
+                    <h6>NUMBER</h6>
+                    <h6 class="mx-auto"></h6>
+                </div>
+                <div class="col-7">
+                    <h6 class="ms-4"></h6>
+                </div>
+                <div class="col-2">
+                    <h6 class="text-center">ACTIONS</h6>
+                </div>
+            </div>
+            <div *ngFor="let brum of posts" id="riga" class="row align-items-center border border-start-0 border-end-0">
+                <div class="col-3 d-flex align-items-center">
+                    <h5 class="me-4 d-flex align-items-center ms-4">{{ brum.id }}</h5>
+                    <img *ngIf="brum.userId==1" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/2a3e7293168665.5e5e2c0261bf6.png"
+                        alt="" />
+                    <img *ngIf="brum.userId==2" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/9c9a9793168665.5e5e2c026427f.png"
+                        alt="" />
+                    <img *ngIf="brum.userId==3" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35652193168665.5e5e2c026478f.png"
+                        alt="" />
+                    <img *ngIf="brum.userId==4" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/03f46093168665.5e5e2c02639a1.png"
+                        alt="" />
+                    <img *ngIf="brum.userId==5" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/69c02824412809.60f18a08e91b9.jpg"
+                        alt="" />
+                    <img *ngIf="brum.userId==6" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://cdn.discordapp.com/attachments/1041633323535056927/1067395070459916368/download.jpg"
+                        alt="" />
+                    <img *ngIf="brum.userId==7" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/17a19574352001.5c2d26e21ceea.jpg"
+                        alt="" />
+                    <img *ngIf="brum.userId==8" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/aa457e75012153.5c408ef77350d.jpg"
+                        alt="" />
+                </div>
+
+                <div class="col-7">
+                    <a name="{{brum.id}}"></a>
+                    <h6 id="titolo_articolo" class="d-flex align-items-center mt-2">
+                        {{ brum.title }}
+                    </h6>
+                    <p>{{ brum.body }}</p>
+                </div>
+
+                <div *ngIf="!conferma || (codiceVerifica != brum.id)" class="col-2 d-flex justify-content-around">
+                    <button id="btn_01" class="btn btn-dark" [routerLink]="['/view/' + brum.id]">
+                        <i class="bi bi-arrows-fullscreen"></i>
+                    </button>
+                    <button id="btn_02" class="btn btn-dark" [routerLink]="['/edit/' + brum.id]">
+                        <i class="bi bi-pencil-square"></i>
+                    </button>
+                    <button id="btn_03" class="btn btn-dark" (click)="cancellaPost(brum.id)">
+                        <i class="bi bi-trash3"></i>
+                    </button>
+                </div>
+
+                <div *ngIf="conferma && (codiceVerifica === brum.id)" class="col-2 d-flex justify-content-around">
+                    <button class="btn btn-success" (click)="confermaCanc(brum.id)">Conferma</button>
+                    <button class="btn btn-danger" (click)="annullaCanc()">Annulla</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

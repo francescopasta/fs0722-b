@@ -1,0 +1,145 @@
+<div [ngClass]="post.userId==1 ? 'reverendo': ''" [ngClass]="post.userId==2 ? 'plum': ''"
+[ngClass]="post.userId==3 ? 'mustard': ''" [ngClass]="post.userId==4 ? 'peacock': ''"
+[ngClass]="post.userId==5 ? 'joker': ''" [ngClass]="post.userId==6 ? 'scarlet': ''"
+[ngClass]="post.userId==7 ? 'cable': ''" [ngClass]="post.userId==8 ? 'thanos': ''" class="d-flex flex-column align-items-center">
+    <h1 class="text-center" id="titolo_edit">Edit Post</h1>
+    <button class="btn btn-danger ms-5 align-self-start" (click)="tornaHome()">Back</button>
+    <form class="text-center contenitore_card w-50" #form="ngForm" (ngSubmit)="modifica(form)">
+        <h4>Titolo:</h4>
+        <input class="p-3 border rounded form-control w-75 mx-auto" name="title" type="text" [ngModel]='post.title'
+            spellcheck="false">
+        <h4 class="my-2">Testo:</h4>
+        <textarea class="p-3 border rounded form-control w-75 mx-auto" ngModel name="body" cols="30" rows="5"
+            [ngModel]="post.body" spellcheck="false"></textarea>
+        <div class="d-flex justify-content-center mt-2">
+            <button class="btn mt-2 pesca" type="submit">Modifica</button>
+        </div>
+    </form>
+</div>
+
+
+
+
+
+<!-- PRIMA PROVA, FUNZIONANTE MA NON OTTIMIZZATA: CODICE RIPETITIVO -->
+
+<!-- <div *ngIf="post.userId==1" class="d-flex flex-column align-items-center reverendo">
+    <h1 class="text-center" id="titolo_edit">Edit Post</h1>
+    <button class="btn btn-danger ms-5 align-self-start" (click)="tornaHome()">Back</button>
+    <form class="text-center contenitore_card w-50" #form="ngForm" (ngSubmit)="modifica(form)">
+        <h4>Titolo:</h4>
+        <input class="p-3 border rounded form-control w-75 mx-auto" name="title" type="text" [ngModel]='post.title'
+            spellcheck="false">
+        <h4 class="my-2">Testo:</h4>
+        <textarea class="p-3 border rounded form-control w-75 mx-auto" ngModel name="body" cols="30" rows="5"
+            [ngModel]="post.body" spellcheck="false"></textarea>
+        <div class="d-flex justify-content-center mt-2">
+            <button class="btn mt-2 pesca" type="submit">Modifica</button>
+        </div>
+    </form>
+</div>
+<div *ngIf="post.userId==2" class="d-flex flex-column align-items-center plum">
+    <h1 class="text-center" id="titolo_edit">Edit Post</h1>
+    <button class="btn btn-danger ms-5 align-self-start" (click)="tornaHome()">Back</button>
+    <form class="text-center contenitore_card w-50" #form="ngForm" (ngSubmit)="modifica(form)">
+        <h4>Titolo:</h4>
+        <input class="p-3 border rounded form-control w-75 mx-auto" name="title" type="text" [ngModel]='post.title'
+            spellcheck="false">
+        <h4 class="my-2">Testo:</h4>
+        <textarea class="p-3 border rounded form-control w-75 mx-auto" ngModel name="body" cols="30" rows="5"
+            [ngModel]="post.body" spellcheck="false"></textarea>
+        <div class="d-flex justify-content-center mt-2">
+            <button class="btn mt-2 pesca" type="submit">Modifica</button>
+        </div>
+    </form>
+</div>
+<div *ngIf="post.userId==3" class="d-flex flex-column align-items-center mustard">
+    <h1 class="text-center" id="titolo_edit">Edit Post</h1>
+    <button class="btn btn-danger ms-5 align-self-start" (click)="tornaHome()">Back</button>
+    <form class="text-center contenitore_card w-50" #form="ngForm" (ngSubmit)="modifica(form)">
+        <h4>Titolo:</h4>
+        <input class="p-3 border rounded form-control w-75 mx-auto" name="title" type="text" [ngModel]='post.title'
+            spellcheck="false">
+        <h4 class="my-2">Testo:</h4>
+        <textarea class="p-3 border rounded form-control w-75 mx-auto" ngModel name="body" cols="30" rows="5"
+            [ngModel]="post.body" spellcheck="false"></textarea>
+        <div class="d-flex justify-content-center mt-2">
+            <button class="btn mt-2 pesca" type="submit">Modifica</button>
+        </div>
+    </form>
+</div>
+<div *ngIf="post.userId==4" class="d-flex flex-column align-items-center peacock">
+    <h1 class="text-center" id="titolo_edit">Edit Post</h1>
+    <button class="btn btn-danger ms-5 align-self-start" (click)="tornaHome()">Back</button>
+    <form class="text-center contenitore_card w-50" #form="ngForm" (ngSubmit)="modifica(form)">
+        <h4>Titolo:</h4>
+        <input class="p-3 border rounded form-control w-75 mx-auto" name="title" type="text" [ngModel]='post.title'
+            spellcheck="false">
+        <h4 class="my-2">Testo:</h4>
+        <textarea class="p-3 border rounded form-control w-75 mx-auto" ngModel name="body" cols="30" rows="5"
+            [ngModel]="post.body" spellcheck="false"></textarea>
+        <div class="d-flex justify-content-center mt-2">
+            <button class="btn mt-2 pesca" type="submit">Modifica</button>
+        </div>
+    </form>
+</div>
+<div *ngIf="post.userId==5" class="d-flex flex-column align-items-center joker">
+    <h1 class="text-center" id="titolo_edit">Edit Post</h1>
+    <button class="btn btn-danger ms-5 align-self-start" (click)="tornaHome()">Back</button>
+    <form class="text-center contenitore_card w-50" #form="ngForm" (ngSubmit)="modifica(form)">
+        <h4>Titolo:</h4>
+        <input class="p-3 border rounded form-control w-75 mx-auto" name="title" type="text" [ngModel]='post.title'
+            spellcheck="false">
+        <h4 class="my-2">Testo:</h4>
+        <textarea class="p-3 border rounded form-control w-75 mx-auto" ngModel name="body" cols="30" rows="5"
+            [ngModel]="post.body" spellcheck="false"></textarea>
+        <div class="d-flex justify-content-center mt-2">
+            <button class="btn mt-2 pesca" type="submit">Modifica</button>
+        </div>
+    </form>
+</div>
+<div *ngIf="post.userId==6" class="d-flex flex-column align-items-center scarlet">
+    <h1 class="text-center" id="titolo_edit">Edit Post</h1>
+    <button class="btn btn-danger ms-5 align-self-start" (click)="tornaHome()">Back</button>
+    <form class="text-center contenitore_card w-50" #form="ngForm" (ngSubmit)="modifica(form)">
+        <h4>Titolo:</h4>
+        <input class="p-3 border rounded form-control w-75 mx-auto" name="title" type="text" [ngModel]='post.title'
+            spellcheck="false">
+        <h4 class="my-2">Testo:</h4>
+        <textarea class="p-3 border rounded form-control w-75 mx-auto" ngModel name="body" cols="30" rows="5"
+            [ngModel]="post.body" spellcheck="false"></textarea>
+        <div class="d-flex justify-content-center mt-2">
+            <button class="btn mt-2 pesca" type="submit">Modifica</button>
+        </div>
+    </form>
+</div>
+<div *ngIf="post.userId==7" class="d-flex flex-column align-items-center cable">
+    <h1 class="text-center" id="titolo_edit">Edit Post</h1>
+    <button class="btn btn-danger ms-5 align-self-start" (click)="tornaHome()">Back</button>
+    <form class="text-center contenitore_card w-50" #form="ngForm" (ngSubmit)="modifica(form)">
+        <h4>Titolo:</h4>
+        <input class="p-3 border rounded form-control w-75 mx-auto" name="title" type="text" [ngModel]='post.title'
+            spellcheck="false">
+        <h4 class="my-2">Testo:</h4>
+        <textarea class="p-3 border rounded form-control w-75 mx-auto" ngModel name="body" cols="30" rows="5"
+            [ngModel]="post.body" spellcheck="false"></textarea>
+        <div class="d-flex justify-content-center mt-2">
+            <button class="btn mt-2 pesca" type="submit">Modifica</button>
+        </div>
+    </form>
+</div>
+<div *ngIf="post.userId==8" class="d-flex flex-column align-items-center thanos">
+    <h1 class="text-center" id="titolo_edit">Edit Post</h1>
+    <button class="btn btn-danger ms-5 align-self-start" (click)="tornaHome()">Back</button>
+    <form class="text-center contenitore_card w-50" #form="ngForm" (ngSubmit)="modifica(form)">
+        <h4>Titolo:</h4>
+        <input class="p-3 border rounded form-control w-75 mx-auto" name="title" type="text" [ngModel]='post.title'
+            spellcheck="false">
+        <h4 class="my-2">Testo:</h4>
+        <textarea class="p-3 border rounded form-control w-75 mx-auto" ngModel name="body" cols="30" rows="5"
+            [ngModel]="post.body" spellcheck="false"></textarea>
+        <div class="d-flex justify-content-center mt-2">
+            <button class="btn mt-2 pesca" type="submit">Modifica</button>
+        </div>
+    </form>
+</div> -->
