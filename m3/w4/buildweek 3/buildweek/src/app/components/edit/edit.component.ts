@@ -38,8 +38,14 @@ export class EditComponent implements OnInit {
     }
 
     modifica(form: NgForm) {
-        this.post.body = form.value.body;
-        this.post.title = form.value.title;
-        this.ps.edit(this.post.id, this.post)
+        if (form.value.body == '' || form.value.title == '') {
+            alert('fill all inputs')
+        }
+        else {
+            this.post.body = form.value.body;
+            this.post.title = form.value.title;
+            this.ps.edit(this.post.id, this.post)
+        }
+
     }
 }

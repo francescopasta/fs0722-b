@@ -4,6 +4,8 @@ import { PostsService } from 'src/app/posts.service';
 import { Router } from '@angular/router';
 import { NgForm } from '@angular/forms';
 
+
+
 @Component({
     selector: 'app-home',
     templateUrl: './home.component.html',
@@ -57,10 +59,10 @@ export class HomeComponent implements OnInit {
         this.router.navigate(['/view/:' + id]);
     }
 
-    cerca(form: NgForm) {
-        this.ricerca = form.value.ricerca
-        if (this.ricerca == '1') {
-            window.location.href = ` `
+    cerca() {
+        // this.ricerca = form.value.ricerca
+        if (this.posts[0].id == this.ricerca) {
+            window.location.href = '#'
         }
         else {
             let controllo: boolean = false;
@@ -78,6 +80,7 @@ export class HomeComponent implements OnInit {
                 alert('post not found')
             }
         }
+        this.ricerca = ''
     }
 
 }

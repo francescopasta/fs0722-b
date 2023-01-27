@@ -8,6 +8,7 @@ import { CreateComponent } from './components/create/create.component';
 import { ViewComponent } from './components/view/view.component';
 import { EditComponent } from './components/edit/edit.component';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
     declarations: [
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
         HomeComponent,
         CreateComponent,
         ViewComponent,
-        EditComponent
+        EditComponent,
+        FooterComponent
     ],
     imports: [
         BrowserModule,

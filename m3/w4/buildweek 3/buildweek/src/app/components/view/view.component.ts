@@ -16,15 +16,17 @@ export class ViewComponent implements OnInit {
         body: '',
         id: ''
     }
+    decisione: string = '';
     constructor(private ar: ActivatedRoute, private ps: PostsService) { }
 
     ngOnInit(): void {
-        let id: number = this.ar.snapshot.params['id'];
+        let id: string = this.ar.snapshot.params['id'];
+        this.decisione = id;
         this.ps.getPosts().subscribe((ris) => {
             this.posts = ris;
-            for (let i of this.posts) {
-                if (Number(i.id) == id) {
-                    this.post = i;
+            for (let a of this.posts) {
+                if (a.id == id) {
+                    this.post = a;
                 }
             }
         });

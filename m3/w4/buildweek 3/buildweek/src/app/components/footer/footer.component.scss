@@ -1,0 +1,25 @@
+.footer_pc {
+    background-color: rgba(0, 0, 0, 0.866);
+    color: white;
+
+    & a {
+        text-decoration: none;
+        color: white;
+    }
+
+    & a:hover {
+        transform: scale(1.2);
+        transition-duration: 0.8s;
+    }
+}
+
+.footer_mobile {
+    background-color: rgba(0, 0, 0, 0.866);
+    color: white;
+
+    & a {
+        font-size: 10px;
+        text-decoration: none;
+        color: white;
+    }
+}

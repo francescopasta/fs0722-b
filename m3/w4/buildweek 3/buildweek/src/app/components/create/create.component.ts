@@ -52,7 +52,5 @@ export class CreateComponent implements OnInit {
             this.post.id = indiceMaggiore.toString();
             this.ps.create(this.post)
         }
-
-
     }
 }

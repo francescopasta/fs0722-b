@@ -1,6 +1,8 @@
 <div class="home">
     <div class="container">
-        <div id="navbar" class="row fw-bold">
+
+        <!--sezione pc navbar-->
+        <div id="navbar" class="fw-bold d-none d-lg-flex">
             <div class="col-2 d-flex">
                 <div id="btn_aggiungi_post" class="align-items-center d-flex mx-auto">
                     <button class="btn btn-success" (click)="nuovoPost()">
@@ -13,14 +15,24 @@
             </div>
             <div class="col-2 d-flex">
                 <div id="btn_cerca_post" class="align-items-center d-flex mx-auto">
-                    <form #form="ngForm" (ngSubmit)="cerca(form)" class="d-flex">
-                        <input type="number" placeholder="Search by Number" ngModel name="ricerca" />
+                    <form #form="ngForm" (ngSubmit)="cerca()" class="d-flex">
+                        <input type="number" placeholder="Search by Number" [(ngModel)]="ricerca" name="ricerca" />
                         <button type="submit"><i class="bi bi-search"></i></button>
                     </form>
                 </div>
             </div>
         </div>
-        <div class="container">
+
+        <!--sezione mobile navbar-->
+        <div id="navbar_mobile" class="fw-bold d-flex d-lg-none">
+            <div class="col-12 align-items-center mt-2 px-0">
+                <h1 id="titolo_mobile" class="text-center">il Blog dei Disagiati</h1>
+            </div>
+        </div>
+        <a class="freccia_in_alto" href="#fine"><i id="freccia_giu" class="bi bi-arrow-down-circle-fill"></i></a>
+
+        <!--sezione home pc-->
+        <div class="container d-none d-lg-block">
             <div id="intestazione" class="row fw-bold">
                 <div class="col-3 d-flex">
                     <h6>NUMBER</h6>
@@ -33,8 +45,10 @@
                     <h6 class="text-center">ACTIONS</h6>
                 </div>
             </div>
-            <div *ngFor="let brum of posts" id="riga" class="row align-items-center border border-start-0 border-end-0">
-                <div class="col-3 d-flex align-items-center">
+            <div *ngFor="let brum of posts" id="riga"
+                class="row align-items-center border border-start-0 border-end-0 px-3">
+
+                <div class="col-3 d-flex align-items-center" [routerLink]="['/view/' + brum.id]">
                     <h5 class="me-4 d-flex align-items-center ms-4">{{ brum.id }}</h5>
                     <img *ngIf="brum.userId==1" class="d-flex justify-content-center mx-auto border rounded"
                         src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/2a3e7293168665.5e5e2c0261bf6.png"
@@ -62,22 +76,23 @@
                         alt="" />
                 </div>
 
-                <div class="col-7">
+                <div class="col-7 controllo_testo" [routerLink]="['/view/' + brum.id]">
                     <a name="{{brum.id}}"></a>
                     <h6 id="titolo_articolo" class="d-flex align-items-center mt-2">
                         {{ brum.title }}
                     </h6>
-                    <p>{{ brum.body }}</p>
+                    <p style="text-align: justify;">{{ brum.body }}</p>
                 </div>
 
+
                 <div *ngIf="!conferma || (codiceVerifica != brum.id)" class="col-2 d-flex justify-content-around">
-                    <button id="btn_01" class="btn btn-dark" [routerLink]="['/view/' + brum.id]">
+                    <button id="btn_01" class="btn btn-dark" [routerLink]="['/view/' + brum.id]" title="view">
                         <i class="bi bi-arrows-fullscreen"></i>
                     </button>
-                    <button id="btn_02" class="btn btn-dark" [routerLink]="['/edit/' + brum.id]">
+                    <button id="btn_02" class="btn btn-dark" [routerLink]="['/edit/' + brum.id]" title="edit">
                         <i class="bi bi-pencil-square"></i>
                     </button>
-                    <button id="btn_03" class="btn btn-dark" (click)="cancellaPost(brum.id)">
+                    <button id="btn_03" class="btn btn-dark" (click)="cancellaPost(brum.id)" title="delete">
                         <i class="bi bi-trash3"></i>
                     </button>
                 </div>
@@ -89,5 +104,78 @@
 
             </div>
         </div>
+
+        <!--sezione home mobile-->
+        <div class="container d-block d-lg-none px-0">
+            <div id="colore_navbar">
+                <div class="col-12 d-flex">
+                    <div id="btn_aggiungi_post" class="align-items-center d-flex mx-auto my-2">
+                        <button class="btn btn-success" (click)="nuovoPost()">
+                            <i class="bi bi-plus-lg"><span> Add a new post</span></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div *ngFor="let brum of posts" id="riga_mobile"
+                class="row align-items-center border border-start-0 border-end-0 px-3">
+                <div class="col-12 d-flex align-items-center">
+                    <img *ngIf="brum.userId==1" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/2a3e7293168665.5e5e2c0261bf6.png"
+                        alt="" />
+                    <img *ngIf="brum.userId==2" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/9c9a9793168665.5e5e2c026427f.png"
+                        alt="" />
+                    <img *ngIf="brum.userId==3" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35652193168665.5e5e2c026478f.png"
+                        alt="" />
+                    <img *ngIf="brum.userId==4" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/03f46093168665.5e5e2c02639a1.png"
+                        alt="" />
+                    <img *ngIf="brum.userId==5" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/69c02824412809.60f18a08e91b9.jpg"
+                        alt="" />
+                    <img *ngIf="brum.userId==6" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://cdn.discordapp.com/attachments/1041633323535056927/1067395070459916368/download.jpg"
+                        alt="" />
+                    <img *ngIf="brum.userId==7" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/17a19574352001.5c2d26e21ceea.jpg"
+                        alt="" />
+                    <img *ngIf="brum.userId==8" class="d-flex justify-content-center mx-auto border rounded"
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/aa457e75012153.5c408ef77350d.jpg"
+                        alt="" />
+                </div>
+
+                <div class="col-12">
+                    <a name="{{brum.id}}"></a>
+                    <h6 id="titolo_articolo" class="d-flex align-items-center mt-2 justify-content-center">
+                        {{ brum.title }}
+                    </h6>
+                    <p class="controllo_testo">{{ brum.body }}</p>
+                </div>
+
+                <div *ngIf="!conferma || (codiceVerifica != brum.id)" class="col-12 d-flex justify-content-around">
+                    <button id="btn_01" class="btn btn-dark" [routerLink]="['/view/' + brum.id]">
+                        <i class="bi bi-arrows-fullscreen"></i>
+                    </button>
+                    <button id="btn_02" class="btn btn-dark" [routerLink]="['/edit/' + brum.id]">
+                        <i class="bi bi-pencil-square"></i>
+                    </button>
+                    <button id="btn_03" class="btn btn-dark" (click)="cancellaPost(brum.id)">
+                        <i class="bi bi-trash3"></i>
+                    </button>
+                </div>
+
+                <div *ngIf="conferma && (codiceVerifica === brum.id)" class="col-12 d-flex justify-content-around">
+                    <button class="btn btn-success" (click)="confermaCanc(brum.id)">Conferma</button>
+                    <button class="btn btn-danger" (click)="annullaCanc()">Annulla</button>
+                </div>
+
+            </div>
+
+        </div>
+        <a class="freccia_in_basso" href="#"><i id="freccia_su" class="bi bi-arrow-up-circle-fill"></i></a>
+        <a name="fine"></a>
     </div>
+
+    <app-footer></app-footer>
 </div>

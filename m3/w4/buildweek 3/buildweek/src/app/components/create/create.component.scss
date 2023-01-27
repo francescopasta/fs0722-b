@@ -1,7 +1,6 @@
 .create {
-    background-image: url(../../../assets/IMG/sfondo_legno.jpg);
-    background-size: contain;
-    background-repeat: repeat;
+    background-image: url(../../../assets/IMG/sfondo_legno_girato.jpg);
+    background-size: cover;
     height: 100vh;
 }
 
@@ -13,9 +12,19 @@
     cursor: pointer;
 }
 
+#titolo_create_mobile {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 48px;
+    color: rgb(23, 60, 97);
+}
+
 .contenitore_card {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 5px;
     padding: 10px;
     filter: drop-shadow(3px 0 3px #000);
+}
+
+.textarea_create {
+    background-color: rgba(255, 255, 255, 0.7);
 }
