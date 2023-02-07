@@ -1,0 +1,201 @@
+14:45:09.245 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 0
+14:45:15.726 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 1
+14:46:24.515 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 0
+14:46:30.456 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 1
+14:46:34.044 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- S is empty?: false
+14:47:14.225 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 0
+14:47:19.160 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 1
+14:47:21.125 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- S contains 'ciao'?: true
+14:55:39.194 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserire il numero di parole da aggiungere: 
+14:55:44.401 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 0
+14:55:48.819 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 1
+14:55:51.829 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Non puoi inserire Duplicati, riprova.
+14:55:51.829 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 1
+14:59:50.515 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserire il numero di parole da aggiungere: 
+14:59:55.305 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 0
+14:59:57.448 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 1
+14:59:59.956 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Lista delle parola inserite: [pero, ciao]
+15:15:09.487 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserire il numero di parole da aggiungere: 
+15:15:13.260 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 0
+15:15:15.240 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 1
+15:15:16.896 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 2
+15:15:18.597 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Lista delle parola inserite: [ciao]
+15:19:22.950 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserire il numero di parole da aggiungere: 
+15:19:27.557 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 0
+15:19:30.380 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 1
+15:19:32.364 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 2
+15:19:34.860 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Parole ripetute: 3
+15:19:34.860 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Parole distinte: 2
+15:19:34.860 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Lista delle parola inserite: [ciao, hello]
+15:20:32.065 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserire il numero di parole da aggiungere: 
+15:20:34.888 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 0
+15:20:37.016 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 1
+15:20:39.788 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Inserisci parola per posizione: 2
+15:20:41.840 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Parole ripetute: 1
+15:20:41.840 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Parole distinte: 2
+15:20:41.840 [main] INFO  es_1.MainClass -%PARSER_ERROR[kvp]- Lista delle parola inserite: [ciao, hello]
+15:34:09.467 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 54
+15:34:15.847 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 8
+15:34:18.087 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 93
+15:34:19.788 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 73
+15:35:15.078 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 14
+15:35:23.895 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 65
+15:35:23.897 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 97
+15:35:23.897 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 61
+15:35:23.897 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 56
+15:35:23.897 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 93
+15:39:54.724 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 49
+15:39:54.726 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 12
+15:39:54.727 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 69
+15:39:54.727 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 8
+15:39:54.727 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 51
+15:42:05.237 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 15
+15:42:05.239 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 91
+15:42:05.239 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 47
+15:42:05.239 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 6
+15:42:05.239 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 69
+15:42:23.060 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 21
+15:42:23.062 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 53
+15:42:23.062 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 45
+15:42:23.062 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 16
+15:42:23.062 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 41
+15:43:52.559 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 10
+15:43:52.560 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 63
+15:43:52.561 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 100
+15:43:52.561 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 46
+15:43:52.561 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 78
+15:43:52.561 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- Is empty: false
+15:45:12.120 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 17
+15:45:12.123 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 90
+15:45:12.123 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 85
+15:45:12.123 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 70
+15:45:12.123 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 37
+15:45:55.446 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 34
+15:45:55.449 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 55
+15:45:55.449 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 79
+15:45:55.449 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 96
+15:45:55.449 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 86
+15:45:55.449 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 34
+15:45:55.449 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 55
+15:45:55.449 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 79
+15:45:55.449 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 96
+15:45:55.449 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 86
+15:46:18.779 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 57
+15:46:18.782 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 20
+15:46:18.782 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 42
+15:46:18.782 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 54
+15:46:18.782 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 79
+15:46:18.782 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 57
+15:47:37.523 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 55
+15:47:37.525 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 95
+15:47:37.525 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 17
+15:47:37.525 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 18
+15:47:37.525 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 32
+15:48:13.851 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 17
+15:48:13.853 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 58
+15:48:13.853 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 73
+15:48:13.853 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 76
+15:48:13.854 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 64
+15:48:49.358 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 98
+15:48:49.360 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 62
+15:48:49.360 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 1
+15:48:49.360 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 77
+15:48:49.360 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 82
+15:52:16.812 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 63
+15:52:16.814 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 26
+15:52:16.814 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 70
+15:52:16.816 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 53
+15:52:16.816 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 40
+15:52:16.816 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- Hello 5
+15:52:16.816 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- Hello 4
+15:52:16.816 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- Hello 3
+15:52:16.816 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- Hello 2
+15:52:16.816 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- Hello 1
+15:53:15.892 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 92
+15:53:15.894 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 95
+15:53:15.894 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 22
+15:53:15.894 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 73
+15:53:15.895 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 83
+15:55:10.418 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 28
+15:55:10.421 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 82
+15:55:10.421 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 43
+15:55:10.421 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 87
+15:55:10.421 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 85
+15:55:25.084 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 76
+15:55:25.087 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 55
+15:55:25.087 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 70
+15:55:25.087 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 89
+15:55:25.087 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 12
+15:59:23.758 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 10
+15:59:23.760 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 4
+15:59:23.760 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 13
+15:59:23.760 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 30
+15:59:23.760 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 37
+15:59:50.386 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 64
+15:59:50.389 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 85
+15:59:50.389 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 47
+15:59:50.389 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 40
+15:59:50.389 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 56
+16:00:23.201 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 100
+16:00:23.204 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 72
+16:00:23.204 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 95
+16:00:23.204 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 21
+16:00:23.204 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 50
+16:00:23.204 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 72
+16:01:08.027 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 64
+16:01:08.029 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 78
+16:01:08.029 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 0
+16:01:08.029 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 99
+16:01:08.029 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 41
+16:03:25.760 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 36
+16:03:25.762 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 35
+16:03:25.762 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 99
+16:03:25.762 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 91
+16:03:25.763 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 41
+16:05:53.998 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 17
+16:05:54.000 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 61
+16:05:54.001 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 7
+16:05:54.001 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 58
+16:05:54.001 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 47
+16:07:16.093 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 55
+16:07:16.096 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 86
+16:07:16.096 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 91
+16:07:16.096 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 8
+16:07:16.096 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 22
+16:08:05.756 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 81
+16:08:05.758 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 75
+16:08:05.758 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 14
+16:08:05.758 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 4
+16:08:05.758 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 19
+16:11:54.603 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 29
+16:11:54.605 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 64
+16:11:54.606 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 8
+16:11:54.606 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 97
+16:11:54.606 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 44
+16:14:26.273 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 64
+16:14:26.275 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 29
+16:14:26.276 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 31
+16:14:26.276 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 41
+16:14:26.276 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 20
+16:15:10.145 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 23
+16:15:10.147 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 45
+16:15:10.147 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 40
+16:15:10.147 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 27
+16:15:10.147 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 84
+16:15:10.147 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- Lista: 45
+16:15:50.189 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 8
+16:15:50.192 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 53
+16:15:50.192 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 6
+16:15:50.192 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 2
+16:15:50.192 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 9
+16:16:31.886 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 2
+16:16:31.889 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 26
+16:16:31.889 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 65
+16:16:31.889 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 49
+16:16:31.889 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- 43
+16:16:31.889 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- Ciao
+16:16:31.889 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- Ciao
+16:16:31.889 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- Ciao
+16:16:31.889 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- Ciao
+16:16:31.889 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- Ciao
+16:16:31.889 [main] INFO  es_2.MainClass -%PARSER_ERROR[kvp]- Lista: [2, 26, 65, 49, 43]
