@@ -21,32 +21,48 @@ public class Order {
 		this.customer = customer;
 	}
 
-	public LocalDate getOrderDate() {
-		return orderDate;
-	}
-
-	public void setOrderDate(LocalDate orderDate) {
-		this.orderDate = orderDate;
-	}
-
-	public Long getId() {
-		return id;
-	}
-
 	public String getStatus() {
 		return Status;
 	}
 
-	public LocalDate getDelivaryDate() {
-		return delivaryDate;
+	public void setStatus(String status) {
+		Status = status;
 	}
 
 	public List<Product> getProducts() {
 		return products;
 	}
 
+	public void setProducts(List<Product> products) {
+		this.products = products;
+	}
+
 	public Customer getCustomer() {
 		return customer;
 	}
+
+	public void setCustomer(Customer customer) {
+		this.customer = customer;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public LocalDate getOrderDate() {
+		return orderDate;
+	}
+
+	public LocalDate getDelivaryDate() {
+		return delivaryDate;
+	}
+
+	@Override
+	public String toString() {
+		return "Order [id=" + id + ", Status=" + Status + ", orderDate=" + orderDate + ", delivaryDate=" + delivaryDate
+				+ ", products=" + products + ", customer=" + customer + "]";
+	}
+
+	
 	
 }
