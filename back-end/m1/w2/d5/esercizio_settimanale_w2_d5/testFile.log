@@ -148,3 +148,30 @@
 16:58:38.768 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Opzioni: (Rimuovere elemento tramite codice ISBN - 1:)(Ricerca Elemento tramite ISBN - 2:)(Ricerca Elemento tramite Anno di Pubblicazione - 3:)(Ricerca Elemento tramite Autore - 4:)(Salva Lista di Elementi su File Locale - 5:)(Leggi litsa di Elementi su File Locale - 6:)(0 per uscire): 
 16:58:41.580 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Leggo il File: [Libro [autore=John, genere=ooo, codiceISBN=1, titolo=LAla, annoPubblicazione=2015, numeroPagine=34]]
 16:58:41.580 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Opzioni: (Rimuovere elemento tramite codice ISBN - 1:)(Ricerca Elemento tramite ISBN - 2:)(Ricerca Elemento tramite Anno di Pubblicazione - 3:)(Ricerca Elemento tramite Autore - 4:)(Salva Lista di Elementi su File Locale - 5:)(Leggi litsa di Elementi su File Locale - 6:)(0 per uscire): 
+17:09:35.507 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+17:09:44.383 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+17:09:47.449 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+17:09:49.747 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+17:09:56.755 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+17:10:00.205 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+17:10:03.716 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- This is the List: []
+17:10:03.716 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Opzioni: (Rimuovere elemento tramite codice ISBN - 1:)(Ricerca Elemento tramite ISBN - 2:)(Ricerca Elemento tramite Anno di Pubblicazione - 3:)(Ricerca Elemento tramite Autore - 4:)(Salva Lista di Elementi su File Locale - 5:)(Leggi litsa di Elementi su File Locale - 6:)(0 per uscire): 
+17:10:44.447 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+17:10:46.443 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+17:10:51.275 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+17:10:53.591 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+17:10:55.299 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Autore: 
+17:10:58.149 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Genere: 
+17:11:01.451 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+17:11:03.233 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+17:11:05.904 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+17:11:08.776 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+17:11:10.926 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Periodicità (Settimanale: 1)(Mensile: 2)(Semestrale: 3): 
+17:11:13.395 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- This is the List: [Libro [autore=John, genere=horror, codiceISBN=1, titolo=lalala, annoPubblicazione=2015, numeroPagine=3], Riviste [periodicità=MENSILE, codiceISBN=2, titolo=irir, annoPubblicazione=2000, numeroPagine=21]]
+17:11:13.395 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Opzioni: (Rimuovere elemento tramite codice ISBN - 1:)(Ricerca Elemento tramite ISBN - 2:)(Ricerca Elemento tramite Anno di Pubblicazione - 3:)(Ricerca Elemento tramite Autore - 4:)(Salva Lista di Elementi su File Locale - 5:)(Leggi litsa di Elementi su File Locale - 6:)(0 per uscire): 
+17:11:20.955 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Opzioni: (Rimuovere elemento tramite codice ISBN - 1:)(Ricerca Elemento tramite ISBN - 2:)(Ricerca Elemento tramite Anno di Pubblicazione - 3:)(Ricerca Elemento tramite Autore - 4:)(Salva Lista di Elementi su File Locale - 5:)(Leggi litsa di Elementi su File Locale - 6:)(0 per uscire): 
+17:11:25.647 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Opzioni: (Rimuovere elemento tramite codice ISBN - 1:)(Ricerca Elemento tramite ISBN - 2:)(Ricerca Elemento tramite Anno di Pubblicazione - 3:)(Ricerca Elemento tramite Autore - 4:)(Salva Lista di Elementi su File Locale - 5:)(Leggi litsa di Elementi su File Locale - 6:)(0 per uscire): 
+17:11:30.819 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserisci codice ISBN dell'elemento che desiderti Trovare: 
+17:11:32.847 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Elemento 1: lalala
+17:11:32.847 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Opzioni: (Rimuovere elemento tramite codice ISBN - 1:)(Ricerca Elemento tramite ISBN - 2:)(Ricerca Elemento tramite Anno di Pubblicazione - 3:)(Ricerca Elemento tramite Autore - 4:)(Salva Lista di Elementi su File Locale - 5:)(Leggi litsa di Elementi su File Locale - 6:)(0 per uscire): 
+17:11:36.051 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Uscendo...

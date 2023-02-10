@@ -34,71 +34,84 @@ public class Biblioteca {
 					+ "(Salva Lista di Elementi su File Locale - 5:)"
 					+ "(Leggi litsa di Elementi su File Locale - 6:)"
 					+ "(0 per uscire): ");
-			int risp = Integer.parseInt(john.nextLine());
+			try {
+				int risp = Integer.parseInt(john.nextLine());
 			
-			if(risp == 1) {
-				log.info("Inserisci codice ISBN dell'elemento che desiderti Eliminare: ");
-				Long ISBN = Long.parseLong(john.nextLine());
-				ele = rimuovereTramiteISBN(ISBN);
-			} else if(risp == 2) {
-				log.info("Inserisci codice ISBN dell'elemento che desiderti Trovare: ");
-				Long ISBN = Long.parseLong(john.nextLine());
-				ElementoBiblioteca due = ricercaTramiteISBN(ISBN);
-				log.info("Elemento " + due.getCodiceISBN() + ": " + due.getTitolo());
-			} else if(risp == 3) {
-				log.info("Inserisci l'anno di Pubblicazione: ");
-				int response = Integer.parseInt(john.nextLine());
-				log.info("Elementi pubblicati nell'anno " + 2015 + ": " + ricercaTramiteAnno(response));
-			} else if(risp == 4) {
-				log.info("Inserisci il nome dell'Autore: ");
-				String response = john.nextLine();
-				log.info("Titoli dell'autore " + response + ": " + ricercaTramiteAutore(response));
-			} else if(risp == 5) {
-				mettiFile();
-				log.info("La lista è stata salvata in Locale :)");
-			} else if(risp == 6) {
-				leggiFile();
-			} else if(risp == 0) {
-				log.info("Uscendo...");
-				test = false;
+				if(risp == 1) {
+					log.info("Inserisci codice ISBN dell'elemento che desiderti Eliminare: ");
+					Long ISBN = Long.parseLong(john.nextLine());
+					ele = rimuovereTramiteISBN(ISBN);
+				} else if(risp == 2) {
+					log.info("Inserisci codice ISBN dell'elemento che desiderti Trovare: ");
+					Long ISBN = Long.parseLong(john.nextLine());
+					ElementoBiblioteca due = ricercaTramiteISBN(ISBN);
+					log.info("Elemento " + due.getCodiceISBN() + ": " + due.getTitolo());
+				} else if(risp == 3) {
+					log.info("Inserisci l'anno di Pubblicazione: ");
+					int response = Integer.parseInt(john.nextLine());
+					log.info("Elementi pubblicati nell'anno " + 2015 + ": " + ricercaTramiteAnno(response));
+				} else if(risp == 4) {
+					log.info("Inserisci il nome dell'Autore: ");
+					String response = john.nextLine();
+					log.info("Titoli dell'autore " + response + ": " + ricercaTramiteAutore(response));
+				} else if(risp == 5) {
+					mettiFile();
+					log.info("La lista è stata salvata in Locale :)");
+				} else if(risp == 6) {
+					leggiFile();
+				} else if(risp == 0) {
+					log.info("Uscendo...");
+					test = false;
+				}
+			} catch(NumberFormatException a) {
+				System.out.println("Errore!!! Inserire un numero");
+			} catch(ArrayIndexOutOfBoundsException e) {
+				System.out.println("Errore!!! Inserire un numero fra 1 e 2");
 			}
+		
 		}
 
 	}
 	
 	public static void aggiungiElemento(Long isbn) {
 		log.info("Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): ");
-		int res = Integer.parseInt(john.nextLine());
-				
-		if(res == 1) {
-			log.info("Inserire Titolo: ");
-			String tit = john.nextLine();
-			log.info("Inserire Anno Pubblicazione: ");
-			int anno = Integer.parseInt(john.nextLine());
-			log.info("Inserire Numero Pagine: ");
-			int pagine = Integer.parseInt(john.nextLine());
-			log.info("Inserire Autore: ");
-			String autore = john.nextLine();
-			log.info("Inserire Genere: ");
-			String genere = john.nextLine();
-			ele.add(new Libro(isbn, tit, anno, pagine, autore, genere));
-		} else if(res == 2) {
-			log.info("Inserire Titolo: ");
-			String tit = john.nextLine();
-			log.info("Inserire Anno Pubblicazione: ");
-			int anno = Integer.parseInt(john.nextLine());
-			log.info("Inserire Numero Pagine: ");
-			int pagine = Integer.parseInt(john.nextLine());
-			log.info("Inserire Periodicità (Settimanale: 1)(Mensile: 2)(Semestrale: 3): ");
-			int risp = Integer.parseInt(john.nextLine());
-			if(risp == 1) {
-				ele.add(new Riviste(isbn, tit, anno, pagine, periodicità.SETTIMANALE));
-			} else if(risp == 2) {
-				ele.add(new Riviste(isbn, tit, anno, pagine, periodicità.MENSILE));
-			} else if(risp == 3) {
-				ele.add(new Riviste(isbn, tit, anno, pagine, periodicità.SEMESTRALE));
-			}
-		} 
+		try {
+			int res = Integer.parseInt(john.nextLine());
+			if(res == 1) {
+				log.info("Inserire Titolo: ");
+				String tit = john.nextLine();
+				log.info("Inserire Anno Pubblicazione: ");
+				int anno = Integer.parseInt(john.nextLine());
+				log.info("Inserire Numero Pagine: ");
+				int pagine = Integer.parseInt(john.nextLine());
+				log.info("Inserire Autore: ");
+				String autore = john.nextLine();
+				log.info("Inserire Genere: ");
+				String genere = john.nextLine();
+				ele.add(new Libro(isbn, tit, anno, pagine, autore, genere));
+			} else if(res == 2) {
+				log.info("Inserire Titolo: ");
+				String tit = john.nextLine();
+				log.info("Inserire Anno Pubblicazione: ");
+				int anno = Integer.parseInt(john.nextLine());
+				log.info("Inserire Numero Pagine: ");
+				int pagine = Integer.parseInt(john.nextLine());
+				log.info("Inserire Periodicità (Settimanale: 1)(Mensile: 2)(Semestrale: 3): ");
+				int risp = Integer.parseInt(john.nextLine());
+				if(risp == 1) {
+					ele.add(new Riviste(isbn, tit, anno, pagine, periodicità.SETTIMANALE));
+				} else if(risp == 2) {
+					ele.add(new Riviste(isbn, tit, anno, pagine, periodicità.MENSILE));
+				} else if(risp == 3) {
+					ele.add(new Riviste(isbn, tit, anno, pagine, periodicità.SEMESTRALE));
+				}
+			} 
+		} catch(NumberFormatException a) {
+			System.out.println("Errore!!! Inserire un numero");
+		} catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("Errore!!! Inserire un numero fra 1 e 2");
+		}	
+		
 	}
 	
 	public static List<ElementoBiblioteca> rimuovereTramiteISBN(Long ISBN) {
