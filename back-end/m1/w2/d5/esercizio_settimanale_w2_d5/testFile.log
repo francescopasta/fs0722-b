@@ -1,0 +1,150 @@
+15:48:02.058 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+15:48:32.161 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+15:48:39.772 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+15:48:43.913 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+15:48:46.146 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Autore: 
+15:48:49.348 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Genere: 
+15:48:52.586 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+15:48:54.440 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+15:48:59.196 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+15:49:03.249 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+15:49:04.789 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Periodicità (Settimanale: 1)(Mensile: 2)(Semestrale: 3): 
+15:49:08.069 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+15:49:11.425 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+15:49:13.388 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+15:49:17.125 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+15:49:19.645 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Periodicità (Settimanale: 1)(Mensile: 2)(Semestrale: 3): 
+15:49:21.417 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+15:49:24.666 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+15:49:27.706 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+15:49:30.072 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+15:49:32.709 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Periodicità (Settimanale: 1)(Mensile: 2)(Semestrale: 3): 
+15:49:35.220 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+15:49:38.925 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+15:49:41.136 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+15:49:45.220 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+15:49:46.997 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Periodicità (Settimanale: 1)(Mensile: 2)(Semestrale: 3): 
+15:49:51.881 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- This is the List: [Libro [autore=manu, genere=love, codiceISBN=1, titolo=ciao, annoPubblicazione=2015, numeroPagine=3], Riviste [periodicità=MENSILE, codiceISBN=2, titolo=ciccia, annoPubblicazione=2015, numeroPagine=3], Riviste [periodicità=SETTIMANALE, codiceISBN=3, titolo=qqq, annoPubblicazione=2001, numeroPagine=2], Riviste [periodicità=MENSILE, codiceISBN=4, titolo=eee, annoPubblicazione=202, numeroPagine=2], Riviste [periodicità=SETTIMANALE, codiceISBN=5, titolo=qqq, annoPubblicazione=3, numeroPagine=1]]
+15:49:51.884 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Elemento 1: ciao
+15:49:51.886 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Elementi pubblicati nell'anno 2015: [ciao, ciccia]
+16:15:35.558 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+16:15:45.181 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+16:15:50.693 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+16:15:54.120 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+16:16:01.076 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Autore: 
+16:16:10.940 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Genere: 
+16:16:15.769 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+16:16:19.280 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+16:16:24.121 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+16:16:27.085 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+16:16:31.168 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Periodicità (Settimanale: 1)(Mensile: 2)(Semestrale: 3): 
+16:16:34.437 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+16:16:37.013 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+16:16:42.565 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+16:16:45.400 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+16:16:48.841 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Autore: 
+16:17:17.854 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Genere: 
+16:17:28.548 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+16:17:49.345 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+16:17:54.636 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+16:17:58.480 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+16:18:00.585 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Periodicità (Settimanale: 1)(Mensile: 2)(Semestrale: 3): 
+16:18:03.868 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+16:18:06.680 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+16:18:12.297 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+16:18:17.884 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+16:18:23.455 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Autore: 
+16:18:27.481 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Genere: 
+16:18:33.282 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- This is the List: [Libro [autore=Jhon, genere=Narrativa, codiceISBN=1, titolo=Il malandrino, annoPubblicazione=2015, numeroPagine=146], Riviste [periodicità=MENSILE, codiceISBN=2, titolo=la claque, annoPubblicazione=2015, numeroPagine=21], Libro [autore=Jhon, genere=Narrativa, codiceISBN=3, titolo=Il Giordano, annoPubblicazione=2020, numeroPagine=340], Riviste [periodicità=SEMESTRALE, codiceISBN=4, titolo=Le Bellesse, annoPubblicazione=2015, numeroPagine=24], Libro [autore=Melody, genere=Biografia, codiceISBN=5, titolo=Krasinsky, annoPubblicazione=2000, numeroPagine=240]]
+16:18:33.285 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Elemento 1: Il malandrino
+16:18:33.286 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Elementi pubblicati nell'anno 2015: [Il malandrino, la claque, Le Bellesse]
+16:20:08.261 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+16:20:10.685 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+16:20:14.140 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+16:20:17.412 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+16:20:18.970 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Autore: 
+16:20:23.392 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Genere: 
+16:20:27.505 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+16:20:29.915 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+16:20:32.316 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+16:20:37.149 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+16:20:42.675 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Periodicità (Settimanale: 1)(Mensile: 2)(Semestrale: 3): 
+16:20:44.721 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- This is the List: [Libro [autore=John, genere=Horro, codiceISBN=1, titolo=LILLA, annoPubblicazione=2015, numeroPagine=2], Riviste [periodicità=SETTIMANALE, codiceISBN=2, titolo=ala, annoPubblicazione=2020, numeroPagine=1]]
+16:20:44.726 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Elemento 1: LILLA
+16:20:44.727 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Elementi pubblicati nell'anno 2015: [LILLA]
+16:27:17.568 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+16:27:20.329 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+16:27:44.532 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+16:27:46.996 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+16:27:50.717 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Autore: 
+16:27:54.549 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Genere: 
+16:27:58.608 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+16:28:00.512 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+16:28:06.448 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+16:28:12.929 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+16:28:18.568 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Periodicità (Settimanale: 1)(Mensile: 2)(Semestrale: 3): 
+16:28:20.616 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- This is the List: [Libro [autore=John, genere=Sexy, codiceISBN=1, titolo=Lambada, annoPubblicazione=2015, numeroPagine=200], Riviste [periodicità=SETTIMANALE, codiceISBN=2, titolo=Bilol, annoPubblicazione=2000, numeroPagine=1]]
+16:28:20.619 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Elemento 1: Lambada
+16:28:20.621 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Elementi pubblicati nell'anno 2015: [Lambada]
+16:28:20.623 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Titoli dell'autore John: []
+16:28:20.638 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Leggo il File: [Libro [autore=John, genere=Sexy, codiceISBN=1, titolo=Lambada, annoPubblicazione=2015, numeroPagine=200], Riviste [periodicità=SETTIMANALE, codiceISBN=2, titolo=Bilol, annoPubblicazione=2000, numeroPagine=1]]
+16:31:06.258 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+16:31:09.960 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+16:31:14.107 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+16:31:16.698 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+16:31:21.705 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Autore: 
+16:31:25.881 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Genere: 
+16:31:33.752 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+16:31:36.212 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+16:31:41.215 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+16:31:43.936 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+16:31:46.317 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Periodicità (Settimanale: 1)(Mensile: 2)(Semestrale: 3): 
+16:31:48.573 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- This is the List: [Libro [autore=John, genere=Fantasy, codiceISBN=1, titolo=Rigenerate, annoPubblicazione=2015, numeroPagine=240], Riviste [periodicità=MENSILE, codiceISBN=2, titolo=Megan, annoPubblicazione=2015, numeroPagine=2]]
+16:31:48.577 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Elemento 1: Rigenerate
+16:31:48.578 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Elementi pubblicati nell'anno 2015: [Rigenerate, Megan]
+16:31:48.580 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Titoli dell'autore John: [Rigenerate]
+16:31:48.593 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Leggo il File: [Libro [autore=John, genere=Fantasy, codiceISBN=1, titolo=Rigenerate, annoPubblicazione=2015, numeroPagine=240], Riviste [periodicità=MENSILE, codiceISBN=2, titolo=Megan, annoPubblicazione=2015, numeroPagine=2]]
+16:35:40.730 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+16:35:43.533 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+16:35:48.320 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+16:35:51.400 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+16:35:54.845 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Autore: 
+16:35:58.936 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Genere: 
+16:36:05.713 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+16:36:07.407 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+16:36:19.549 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+16:36:22.092 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+16:36:29.260 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Periodicità (Settimanale: 1)(Mensile: 2)(Semestrale: 3): 
+16:36:31.314 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- This is the List: [Libro [autore=John, genere=Malinconic, codiceISBN=1, titolo=bigiù, annoPubblicazione=2015, numeroPagine=40], Riviste [periodicità=SETTIMANALE, codiceISBN=2, titolo=Bongiòrno, annoPubblicazione=2015, numeroPagine=2]]
+16:36:31.318 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Elemento 1: bigiù
+16:36:31.320 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Elementi pubblicati nell'anno 2015: [bigiù]
+16:36:31.321 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Titoli dell'autore John: [bigiù]
+16:36:31.335 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Leggo il File: [Libro [autore=John, genere=Malinconic, codiceISBN=1, titolo=bigiù, annoPubblicazione=2015, numeroPagine=40]]
+16:57:02.647 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+16:57:08.436 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+16:57:11.127 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+16:57:14.683 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+16:57:17.318 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Autore: 
+16:57:20.086 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Genere: 
+16:57:22.193 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Libro o Rivista? (Libro: 1)(Rivista: 2): 
+16:57:24.103 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Titolo: 
+16:57:26.375 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Anno Pubblicazione: 
+16:57:31.243 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Numero Pagine: 
+16:57:34.899 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserire Periodicità (Settimanale: 1)(Mensile: 2)(Semestrale: 3): 
+16:57:36.433 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- This is the List: [Libro [autore=John, genere=ooo, codiceISBN=1, titolo=LAla, annoPubblicazione=2015, numeroPagine=34], Riviste [periodicità=MENSILE, codiceISBN=2, titolo=alalal, annoPubblicazione=2015, numeroPagine=12]]
+16:57:36.433 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Opzioni: (Rimuovere elemento tramite codice ISBN - 1:)(Ricerca Elemento tramite ISBN - 2:)(Ricerca Elemento tramite Anno di Pubblicazione - 3:)(Ricerca Elemento tramite Autore - 4:)(Salva Lista di Elementi su File Locale - 5:)(Leggi litsa di Elementi su File Locale - 6:)(0 per uscire): 
+16:57:50.427 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserisci codice ISBN dell'elemento che desiderti Eliminare: 
+16:57:53.878 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Opzioni: (Rimuovere elemento tramite codice ISBN - 1:)(Ricerca Elemento tramite ISBN - 2:)(Ricerca Elemento tramite Anno di Pubblicazione - 3:)(Ricerca Elemento tramite Autore - 4:)(Salva Lista di Elementi su File Locale - 5:)(Leggi litsa di Elementi su File Locale - 6:)(0 per uscire): 
+16:58:07.163 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserisci codice ISBN dell'elemento che desiderti Trovare: 
+16:58:08.513 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Elemento 1: LAla
+16:58:08.513 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Opzioni: (Rimuovere elemento tramite codice ISBN - 1:)(Ricerca Elemento tramite ISBN - 2:)(Ricerca Elemento tramite Anno di Pubblicazione - 3:)(Ricerca Elemento tramite Autore - 4:)(Salva Lista di Elementi su File Locale - 5:)(Leggi litsa di Elementi su File Locale - 6:)(0 per uscire): 
+16:58:15.083 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserisci l'anno di Pubblicazione: 
+16:58:17.465 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Elementi pubblicati nell'anno 2015: [LAla]
+16:58:17.466 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Opzioni: (Rimuovere elemento tramite codice ISBN - 1:)(Ricerca Elemento tramite ISBN - 2:)(Ricerca Elemento tramite Anno di Pubblicazione - 3:)(Ricerca Elemento tramite Autore - 4:)(Salva Lista di Elementi su File Locale - 5:)(Leggi litsa di Elementi su File Locale - 6:)(0 per uscire): 
+16:58:25.928 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Inserisci il nome dell'Autore: 
+16:58:28.365 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Titoli dell'autore John: [LAla]
+16:58:28.366 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Opzioni: (Rimuovere elemento tramite codice ISBN - 1:)(Ricerca Elemento tramite ISBN - 2:)(Ricerca Elemento tramite Anno di Pubblicazione - 3:)(Ricerca Elemento tramite Autore - 4:)(Salva Lista di Elementi su File Locale - 5:)(Leggi litsa di Elementi su File Locale - 6:)(0 per uscire): 
+16:58:38.768 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- La lista è stata salvata in Locale :)
+16:58:38.768 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Opzioni: (Rimuovere elemento tramite codice ISBN - 1:)(Ricerca Elemento tramite ISBN - 2:)(Ricerca Elemento tramite Anno di Pubblicazione - 3:)(Ricerca Elemento tramite Autore - 4:)(Salva Lista di Elementi su File Locale - 5:)(Leggi litsa di Elementi su File Locale - 6:)(0 per uscire): 
+16:58:41.580 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Leggo il File: [Libro [autore=John, genere=ooo, codiceISBN=1, titolo=LAla, annoPubblicazione=2015, numeroPagine=34]]
+16:58:41.580 [main] INFO  biblioteca.Biblioteca -%PARSER_ERROR[kvp]- Opzioni: (Rimuovere elemento tramite codice ISBN - 1:)(Ricerca Elemento tramite ISBN - 2:)(Ricerca Elemento tramite Anno di Pubblicazione - 3:)(Ricerca Elemento tramite Autore - 4:)(Salva Lista di Elementi su File Locale - 5:)(Leggi litsa di Elementi su File Locale - 6:)(0 per uscire): 

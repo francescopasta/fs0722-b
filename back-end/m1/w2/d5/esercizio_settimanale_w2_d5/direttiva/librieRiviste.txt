@@ -1,0 +1,1 @@
+Libro [autore=John, genere=ooo, codiceISBN=1, titolo=LAla, annoPubblicazione=2015, numeroPagine=34]
