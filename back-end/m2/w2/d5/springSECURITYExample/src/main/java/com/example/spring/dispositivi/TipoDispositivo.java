@@ -1,6 +1,6 @@
 package com.example.spring.dispositivi;
 
-public enum ModelloDispositivo {
+public enum TipoDispositivo {
 	SMARTPHONE,
 	TABLET,
 	LAPTOP

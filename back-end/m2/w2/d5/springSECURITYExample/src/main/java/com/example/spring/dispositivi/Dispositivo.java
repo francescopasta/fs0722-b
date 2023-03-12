@@ -6,22 +6,23 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name="dispositivi")
 @NoArgsConstructor
 @Data
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public class Dispositivo {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long idDispositivo;
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id;
 	@Enumerated(EnumType.STRING)
-	private ModelloDispositivo modello;
+	private TipoDispositivo tipo;
 	@Enumerated(EnumType.STRING)
 	private StatoDispositivo stato;
 	

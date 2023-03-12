@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 
 import com.example.spring.dispositivi.Dispositivo;
 import com.example.spring.dispositivi.DispositivoRepository;
-import com.example.spring.dispositivi.ModelloDispositivo;
 import com.example.spring.security.auth.users.User;
 import com.example.spring.security.auth.users.UserRepository;
 
@@ -63,8 +62,9 @@ public class UserService {
 	//  DISPOSITIVO
 	
 	
-	public void createDisp(Dispositivo disp) {
+	public Dispositivo createDisp(Dispositivo disp) {
 		dispoRepo.save(disp);
+		return disp;
 	}
 	
 	public List<Dispositivo> getAllDispositivi(){
@@ -72,27 +72,15 @@ public class UserService {
 	}
 	
 	public Dispositivo getDispoById(Long id) {
-		if(!dispoRepo.existsById(id)) {
-			throw new EntityExistsException("Dispositivo doesn't exist...");  
-		} 
 		return dispoRepo.findById(id).get();
 	}
 	
-	/*public User updateStatoDispo(User user) {
-		user.getDispositivi().forEach(e -> {
-			if(userRepo.existsByModelloDispositivo(e.getModello())){
-				userRepo.save(user);
-			}
-		});
-		return user;
-	}*/
+	public Dispositivo updateDispo(Dispositivo disp) {
+		return dispoRepo.save(disp);
+	}
 	
 	public String removeDispo(Long id) {
-        if(!dispoRepo.existsById(id)) {
-             throw new EntityNotFoundException("Cannot delete a Dispositivo that dont exist...");
-        } else {
-        	dispoRepo.deleteById(id);
-        }
+        dispoRepo.deleteById(id);
         return "User deleted!!!";
     }
 	

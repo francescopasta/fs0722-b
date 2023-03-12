@@ -50,12 +50,6 @@ public class UserController {
 
 	}
 	
-	@GetMapping("/dispositivi")
-	public ResponseEntity<List<Dispositivo>> getAllDispositivi(){
-		return new ResponseEntity<List<Dispositivo>>(service.getAllDispositivi(), HttpStatus.OK);
-	}
-	
-	
 	@GetMapping("/users/{id}")
 	@PreAuthorize("hasRole('ADMIN')")
 	public ResponseEntity<User> getUserById(@PathVariable Long id) {
@@ -71,6 +65,7 @@ public class UserController {
 	}
 	
 	@DeleteMapping("/users/{id}")
+	@PreAuthorize("hasRole('ADMIN')")
 	public ResponseEntity<String> deleteUser(@PathVariable Long id){
 		return new ResponseEntity<String>(service.removeUser(id), HttpStatus.OK);
 	}

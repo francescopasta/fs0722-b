@@ -55,8 +55,8 @@ public class User {
 	private Set<Role> roles = new HashSet<>();
 	
 	@ManyToMany(fetch = FetchType.LAZY)
-	@JoinColumn(name = "id_dispositivo")
-	private List<Dispositivo> dispositivi = new ArrayList<Dispositivo>();
+	@JoinTable(name = "user_dispositivo", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "dispositivo_id"))
+	private Set<Dispositivo> dispositivi = new HashSet<>();
 
 	public User(Long id, @NotBlank @Size(max = 20) String username, @NotBlank @Size(max = 50) @Email String email,
 			@NotBlank @Size(max = 120) String password, @Size(max = 50) String nome, @Size(max = 50) String cognome) {
